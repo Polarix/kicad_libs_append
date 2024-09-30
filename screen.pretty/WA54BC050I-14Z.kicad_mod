@@ -1,0 +1,250 @@
+(footprint "WA54BC050I-14Z"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "沃乐康 1.54寸 240×240 电容触摸屏")
+	(tags "WLK TFT LCD 1.54in 240 touch")
+	(property "Reference" "REF**"
+		(at -15.6 -20.8 0)
+		(layer "F.SilkS")
+		(uuid "b7a298e8-078b-4216-ade5-f890ababdc97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ST7789_1.14in"
+		(at -7.599 -20.8 0)
+		(layer "F.Fab")
+		(uuid "14a25c09-5ccb-4f3d-929e-23569bba886f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.34 5.6 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "142a773b-6a35-4801-9d94-ab4dfc8d0f7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.34 5.6 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98f3f32c-5f3d-4bd2-943e-b61aa073d203")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.34 5.6 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "86ab4a79-43e6-45c4-b01e-410628f34019")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -17.5 -20)
+		(end -17.5 20)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ad62b4c-1b71-44db-8ae8-8bfef80dc9f6")
+	)
+	(fp_line
+		(start -17.5 20)
+		(end 17.5 20)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ca3f1255-77e5-4c74-836c-e04c18c0787f")
+	)
+	(fp_line
+		(start -14 -14)
+		(end -14 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b3e504c2-abc2-43dc-bdc8-73dae5112562")
+	)
+	(fp_line
+		(start -14 -14)
+		(end 14 -14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f74ea865-f980-472f-b305-cd67c8665344")
+	)
+	(fp_line
+		(start -14 14)
+		(end 14 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3ca8593b-917c-4002-8d53-0bd5a03fe807")
+	)
+	(fp_line
+		(start 14 -14)
+		(end 14 14)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "698171d3-370c-4214-9c74-65d9caf68a64")
+	)
+	(fp_line
+		(start 17.5 -20)
+		(end -17.5 -20)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7ab79097-1beb-449b-80bb-8d58c59619a7")
+	)
+	(fp_line
+		(start 17.5 -20)
+		(end 17.5 20)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d61b0e50-ec9b-457a-a6ad-b0560ba28dc7")
+	)
+	(fp_line
+		(start -3.8 20)
+		(end -3.8 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "ed5fc603-b444-4dcf-8f2b-dda629ac6800")
+	)
+	(fp_line
+		(start -3.3 5)
+		(end 3.3 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "d88825f5-6968-40cd-9668-767ac403c612")
+	)
+	(fp_line
+		(start 3.8 20)
+		(end 3.8 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "fd401fed-a87b-4d88-bd6c-c163c288d775")
+	)
+	(fp_arc
+		(start -3.8 5.5)
+		(mid -3.653553 5.146447)
+		(end -3.3 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "dcaeba2c-6e65-42e8-a539-aee8953060e9")
+	)
+	(fp_arc
+		(start 3.3 5)
+		(mid 3.653553 5.146447)
+		(end 3.8 5.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.Fab")
+		(uuid "010d1f20-96e1-4a4b-83be-716123deae8e")
+	)
+	(fp_line
+		(start -15.75 -15.64)
+		(end -15.75 18.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e568080-6a44-463e-b0ac-593dfea42e45")
+	)
+	(fp_line
+		(start 15.75 -15.64)
+		(end -15.75 -15.64)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3cf85a87-e02c-42bb-bfdd-3e26e0ab8e83")
+	)
+	(fp_line
+		(start 15.75 -15.64)
+		(end 15.75 18.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d9da664-bbdb-40ec-9faa-2a5177552852")
+	)
+	(fp_line
+		(start 15.75 18.08)
+		(end -15.75 18.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56e87b9f-f38d-4b53-b42a-4df6ef9a32cf")
+	)
+	(model "${KISYS3DMOD}/Connector_FFC-FPC.3dshapes/Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

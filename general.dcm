@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LVC1G175
+D Single D-Type Flip-Flop With Asynchronous Clear
+$ENDCMP
+#
+$CMP FSUSB30MUX
+D Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) or UART Switch, MSOP-10
+K USB 2.0 UART High Speed Switch
+F https://www.onsemi.com/pub/Collateral/FSUSB42-D.PDF
+$ENDCMP
+#
+$CMP MP2315
+D High Efficiency 3A, 24V, 500kHz Synchronous Step Down Converter
+$ENDCMP
+#
+$CMP TS3USB221
+D Low-Power, Two-Port, High-Speed, USB2.0 (480Mbps) or UART Switch, MSOP-10
+K USB 2.0 UART High Speed Switch
+F https://www.ti.com.cn/cn/lit/ds/symlink/ts3usb221.pdf?ts=1638068306674&ref_url=https%253A%252F%252Fwww.ti.com.cn%252Fstore%252Fti%252Fzh%252Fp%252Fproduct%252F%253Fp%253DTS3USB221RSER
+$ENDCMP
+#
+#End Doc Library

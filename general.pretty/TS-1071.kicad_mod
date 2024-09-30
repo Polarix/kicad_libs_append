@@ -1,0 +1,223 @@
+(footprint "TS-1071"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
+	(tags "tactile switch Wurth Wuerth")
+	(property "Reference" "REF**"
+		(at 0.15 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "df3938f6-c329-4ffc-84de-82d5640ee21c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TS-1071"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "9bed721b-6e42-4131-b055-0a481c16649f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8011370-7c99-4d2e-af18-cb711c3ced70")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ae4a3bdc-625b-4e7d-b1ca-a51f77245338")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "316e5a81-336b-4b53-8b8a-77cd769967a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 -1.5)
+		(end -2 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe0a67b8-3050-4ee1-a114-c559f37bfe66")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end -2 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd8df187-444b-4819-a289-8ba5ff2e46b6")
+	)
+	(fp_line
+		(start -2 1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86410c08-85a0-475b-bc93-eb3847bcde73")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end -2 -1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "55539843-6279-4139-a728-fa53d2daeaf0")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end 2 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ffe700a-0e3f-47d0-a095-f924dac8163b")
+	)
+	(fp_line
+		(start 2 1.5)
+		(end 2 1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "629d43c1-9248-4504-bcc8-0325e1994502")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.9 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d0064f4c-eaa8-4fc1-8c95-5edfe18ce9e5")
+	)
+	(fp_rect
+		(start -2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "d7d97f8c-4994-4f13-ac46-daeb78769313")
+	)
+	(fp_line
+		(start -3.2 -1.7)
+		(end 3.2 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bdcb11f-f2ce-4996-825f-182e1bbcd35a")
+	)
+	(fp_line
+		(start -3.2 1.7)
+		(end -3.2 -1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4df3b9aa-117f-412c-a01d-4bad2376c3fb")
+	)
+	(fp_line
+		(start 3.2 -1.7)
+		(end 3.2 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0a304cf0-e4bf-4866-a74e-7c6cd4c7e918")
+	)
+	(fp_line
+		(start 3.2 1.7)
+		(end -3.2 1.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e46e0545-9a2a-4ef2-b8a5-34f0d29c3e7c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 0 0)
+		(layer "F.Fab")
+		(uuid "88704064-7d2e-4184-aba0-9496611bc3a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.2 0)
+		(size 1.4 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fe41dd62-d2d9-401c-b4f5-37f7fe1c0693")
+	)
+	(pad "2" smd rect
+		(at 2.2 0)
+		(size 1.4 1.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4011b300-ebeb-4301-a683-5c483a23fcbe")
+	)
+	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_Vertical_Wuerth_434133025816.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -1,0 +1,315 @@
+(footprint "TS-1070"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
+	(tags "tactile switch Wurth Wuerth")
+	(property "Reference" "REF**"
+		(at 0.15 -2.6 0)
+		(layer "F.SilkS")
+		(uuid "b733ebe9-d414-4d42-8fa4-570d5350e89f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TS-1070"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "2119307d-8f46-4e86-9e2c-d1c3388d260f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b091695c-c96d-417c-a63d-d58418d7e196")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39d18bc4-f947-49d9-be73-929d770a48c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aee26ee2-74c5-48f3-bbcd-4f124fd0ea40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.2 0.05)
+		(end -2.2 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17a68e42-3ddc-4d78-b83b-f29ffebafac7")
+	)
+	(fp_line
+		(start -2.2 1.75)
+		(end 2.2 1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "06fb20c6-3320-4c44-a4fc-f8148c25421b")
+	)
+	(fp_line
+		(start 2.2 -1.75)
+		(end -2.2 -1.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61195db1-2994-490e-8838-af7008d14533")
+	)
+	(fp_line
+		(start 2.2 0.05)
+		(end 2.2 -0.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "93d376cd-6b81-4a1b-90f6-91b97d52586e")
+	)
+	(fp_line
+		(start -2.85 -1.85)
+		(end 2.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87e8a0ab-c2bd-461e-9168-3e5d7060812b")
+	)
+	(fp_line
+		(start -2.85 1.85)
+		(end -2.85 -1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a5585334-0047-4dea-9f90-51c6551a818d")
+	)
+	(fp_line
+		(start 2.85 -1.85)
+		(end 2.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eb98725f-35e5-4be8-9731-45425b4729ec")
+	)
+	(fp_line
+		(start 2.85 1.85)
+		(end -2.85 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "584f1cc5-cc9b-4cea-962d-c2ad6fd2bc62")
+	)
+	(fp_line
+		(start -2.1 -1.6)
+		(end 2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "10db7d9e-e947-4a41-84d8-bc5a6d72f1a3")
+	)
+	(fp_line
+		(start -2.1 -1.1)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0c0266bb-6ed3-48f4-818d-fc75d94349c0")
+	)
+	(fp_line
+		(start -2.1 1.1)
+		(end -1.6 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5f16803d-3f3c-4e79-ac38-bb97e267977e")
+	)
+	(fp_line
+		(start -2.1 1.6)
+		(end -2.1 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a219a2d1-3d4a-4870-aa9c-300814dd983f")
+	)
+	(fp_line
+		(start -0.9 -1.1)
+		(end 0.8 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5fb5e7f-cb8b-499a-be35-cc1faa368f41")
+	)
+	(fp_line
+		(start 0.8 1.1)
+		(end -0.9 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ac775398-aa95-4002-a620-e2737495c3aa")
+	)
+	(fp_line
+		(start 1.6 -1.6)
+		(end 2.1 -1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00202a0b-d1f4-4548-96ee-0def8db9d656")
+	)
+	(fp_line
+		(start 1.6 1.6)
+		(end 2.1 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "352935e1-542c-4d56-a36f-b57888a553e6")
+	)
+	(fp_line
+		(start 2.1 -1.6)
+		(end 2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c564a1ec-efc4-407d-a50f-8f02b954dcae")
+	)
+	(fp_line
+		(start 2.1 1.6)
+		(end -2.1 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4a094d0b-ee11-49a3-8ca2-fca25bcee3f9")
+	)
+	(fp_arc
+		(start -0.9 1.099999)
+		(mid -1.460147 0)
+		(end -0.9 -1.099999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5b00863-7ecb-4b9b-8f28-5c7f5bcd85f9")
+	)
+	(fp_arc
+		(start 0.8 -1.099999)
+		(mid 1.40384 0)
+		(end 0.799999 1.099999)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3d64212b-3f4f-4d5c-a270-e383f9f8c08b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 0 0)
+		(layer "F.Fab")
+		(uuid "bdfa34bf-7e67-443a-a012-a91216a78c94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 -1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6b33f3cb-3630-408f-bba4-7dc2bac49a2a")
+	)
+	(pad "1" smd rect
+		(at 2.1 -1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "60ed2a91-ce83-41f1-9164-10df68163c1e")
+	)
+	(pad "2" smd rect
+		(at -2.1 1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "89926009-18af-43e8-b6fe-a00dee4a514c")
+	)
+	(pad "2" smd rect
+		(at 2.1 1.075)
+		(size 1.2 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c5e01807-2135-4c05-90aa-030bf7dd243d")
+	)
+	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_Vertical_Wuerth_434133025816.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
