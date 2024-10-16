@@ -7732,7 +7732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, TSSOP20"
+		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, QFN-20"
 			(at 0 0 0)
 			(effects
 				(font
@@ -9916,7 +9916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, QFN16"
+		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, QFN20"
 			(at 0 0 0)
 			(effects
 				(font
