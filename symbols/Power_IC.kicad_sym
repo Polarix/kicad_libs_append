@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.southchip.com/"
-			(at -12.7 -2.032 0)
+			(at 0 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Description" "四开关升降压IC"
-			(at 0 0 0)
+			(at 0 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4168,8 +4168,8 @@
 		)
 		(symbol "SC8701_0_1"
 			(rectangle
-				(start -30.48 30.48)
-				(end 30.48 -30.48)
+				(start -30.48 29.21)
+				(end 30.48 -31.75)
 				(stroke
 					(width 0)
 					(type default)
