@@ -25,7 +25,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "HDR2×10_2.54mm"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
@@ -131,6 +131,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "05c913d1-00a4-4975-81dd-616cd67c3005")
+	)
+	(fp_rect
+		(start -1.143 -3.683)
+		(end 23.876 1.143)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "de83bcd5-ddb1-4417-bc1f-667bec9b8c81")
 	)
 	(pad "1" thru_hole circle
 		(at 0 0)

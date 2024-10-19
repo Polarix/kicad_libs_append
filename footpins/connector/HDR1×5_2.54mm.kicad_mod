@@ -27,7 +27,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "HDR1×5_2.54mm"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
