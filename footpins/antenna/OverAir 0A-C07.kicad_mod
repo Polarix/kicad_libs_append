@@ -1,4 +1,4 @@
-(footprint "CrossAir CA-C01"
+(footprint "OverAir 0A-C07"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -31,7 +31,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" "CrossAir CA-C01"
+	(property "Footprint" "OverAir 0A-C07"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -69,8 +69,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.6 -0.9)
-		(end 1.6 -0.9)
+		(start -1.75 -0.95)
+		(end 1.75 -0.95)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -79,8 +79,8 @@
 		(uuid "5685fce2-2951-461b-869f-2cc6a9ad5b8d")
 	)
 	(fp_line
-		(start -1.6 0.9)
-		(end 1.6 0.9)
+		(start -1.75 0.95)
+		(end 1.75 0.95)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -89,8 +89,8 @@
 		(uuid "454b4afc-18ad-47f1-82ec-5f8b6f908910")
 	)
 	(fp_rect
-		(start -2.2 -0.9)
-		(end 2.2 0.9)
+		(start -2.35 -0.95)
+		(end 2.35 0.95)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -100,8 +100,8 @@
 		(uuid "a22db3d9-5975-4b96-99a5-5ee3840b59bb")
 	)
 	(fp_rect
-		(start -1 -0.8)
-		(end 1 0.8)
+		(start -1.35 -0.85)
+		(end 1.35 0.85)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -124,16 +124,16 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -1.6 0 180)
-		(size 1 1.6)
+		(at -1.75 0 180)
+		(size 1 1.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 45)
 		(uuid "91b5b2b7-5ca9-4c73-a882-f01df30c9928")
 	)
 	(pad "2" smd roundrect
-		(at 1.6 0)
-		(size 1 1.6)
+		(at 1.75 0)
+		(size 1 1.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.2)
 		(thermal_bridge_angle 45)
