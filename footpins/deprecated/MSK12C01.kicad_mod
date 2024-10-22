@@ -29,7 +29,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "MSK12C01"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
