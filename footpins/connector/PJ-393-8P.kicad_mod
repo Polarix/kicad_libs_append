@@ -28,7 +28,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "PJ-393-8P"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")

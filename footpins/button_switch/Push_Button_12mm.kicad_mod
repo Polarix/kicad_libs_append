@@ -29,7 +29,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Push_Button_12mm"
 		(at -6.14 -2.39 0)
 		(unlocked yes)
 		(layer "F.Fab")
