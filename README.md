@@ -1,2 +1,44 @@
-# kicad_libs
-Supplementary symbol libraries and footprint libraries for KiCAD
+# KiCAD 补充库
+
+此仓库是我个人在使用KiCAD过程中使用的、KiCAD自带库中未提供的符号和封装。这些封装是我从KiCAD 5版本开始积累的，有些封装可能现在最新的库中已经提供了，也可能是我当时没有找到而自己做的符号和封装。    
+
+这个仓库中绝大部分的封装已经过制板测试，当然也有小部分封装做好了但是没有使用过，封装的命名和引脚排布规则尽量符合KiCAD自带库的风格标准，尽量做到不埋雷，但是个人精力有限，各人使用习惯也各有不同，使用时还请自行校验。    
+
+仓库中包含符号库、封装库和3D模型三部分，分别在symbols、footpins和3d_model三个文件夹中。
+
+## 符号库
+
+符号库中包含以下类目和内容：
+
+|名称|描述|
+| -|-|
+|Antenna|天线|
+|Button_Switch|按钮和开关|
+|Connector|端子、连接器|
+|General|普通元件或未分类元件|
+|MCU_SOC_FPGA|MCU等可编程器件|
+|Modules|模块|
+|Motor_Driver|电机驱动IC|
+|Power_IC|电源IC|
+|Screen|屏幕|
+> ※ General 类目中的符号可能会经常变动，请谨慎使用。    
+> ※ 未在上述列表中记述的库，可能会在未来合并到现有的其他库或删除，请谨慎使用。    
+
+## 封装库
+
+封装库中包含以下类目和内容：
+
+|名称|描述|
+| -|-|
+|antenna|天线|
+|button_switch|按钮和开关|
+|connector|端子、连接器|
+|deprecated|将被弃用或移动到其他库的封装|
+|general|普通元件或未分类元件|
+|modules|模块|
+|screens|屏幕|
+|slot|插槽、插座|
+|special|特殊封装|
+> ※ deprecated 用于临时存储和验证，不做长期保存，会经常变动，可以参考，但不推荐使用。    
+> ※ general 与符号库类似，用于不方便归类的普通、常见器件，可能会经常变动，请谨慎使用。    
+> ※ special 用于保存一些非标准封装、异形封装或组合封装，使用前请验证是否符合实际需求。    
