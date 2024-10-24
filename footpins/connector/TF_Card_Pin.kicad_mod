@@ -68,6 +68,16 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start 5 0)
+		(end -5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6acd5b2-f3f8-4c3e-8d16-734222801c6e")
+	)
 	(fp_arc
 		(start -5.45 -1.5)
 		(mid 0 -1.833336)
@@ -78,6 +88,16 @@
 		)
 		(layer "F.SilkS")
 		(uuid "e4f8c413-4cc2-4437-b811-fa7d196d2948")
+	)
+	(fp_line
+		(start -5 0)
+		(end -5.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "14ee23fb-9474-4d92-81dc-f2486f8bce09")
 	)
 	(fp_line
 		(start 5.5 -1.84)
@@ -91,13 +111,13 @@
 	)
 	(fp_line
 		(start 5.5 0)
-		(end -5.5 0)
+		(end 5 0)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Cmts.User")
-		(uuid "d6acd5b2-f3f8-4c3e-8d16-734222801c6e")
+		(uuid "82abffc0-47ce-4a9d-aa77-59a9e2e3e17a")
 	)
 	(fp_line
 		(start -5.5 -8)
@@ -111,7 +131,7 @@
 	)
 	(fp_line
 		(start -5.5 -7.1)
-		(end -4.2 -7.1)
+		(end -4.8 -7.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -121,13 +141,33 @@
 	)
 	(fp_line
 		(start -5.5 0)
-		(end -5.5 -4.6)
+		(end -5.5 -5.2)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
 		(uuid "5911ef02-f80c-4042-a0ef-51d22459908a")
+	)
+	(fp_line
+		(start -4.8 -7.1)
+		(end -4.8 -5.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ecba3ae9-3258-4472-b227-0b1ad8fb56d0")
+	)
+	(fp_line
+		(start -4.8 -5.9)
+		(end -5.5 -5.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "01101f78-cf24-4361-b11d-e90dfc3b7e44")
 	)
 	(fp_line
 		(start -4.2 -14.5)
@@ -148,26 +188,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "341fb731-8ea5-46fc-8e3a-c3cf28eca8b8")
-	)
-	(fp_line
-		(start -4.2 -7.1)
-		(end -4.2 -5.9)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ecba3ae9-3258-4472-b227-0b1ad8fb56d0")
-	)
-	(fp_line
-		(start -4.2 -5.9)
-		(end -5.5 -4.6)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "01101f78-cf24-4361-b11d-e90dfc3b7e44")
 	)
 	(fp_line
 		(start 5 -15)
