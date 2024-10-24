@@ -68,6 +68,17 @@
 		)
 	)
 	(attr through_hole)
+	(fp_arc
+		(start -4.8 -1.5)
+		(mid 0.65 -1.833336)
+		(end 6.1 -1.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e4f8c413-4cc2-4437-b811-fa7d196d2948")
+	)
 	(fp_line
 		(start 6.15 -1.84)
 		(end -4.85 -1.84)
@@ -87,17 +98,6 @@
 		)
 		(layer "Cmts.User")
 		(uuid "d6acd5b2-f3f8-4c3e-8d16-734222801c6e")
-	)
-	(fp_arc
-		(start -4.85 -1.5)
-		(mid 0.65 -1.836394)
-		(end 6.15 -1.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Cmts.User")
-		(uuid "e4f8c413-4cc2-4437-b811-fa7d196d2948")
 	)
 	(fp_line
 		(start -4.85 -8)
@@ -210,13 +210,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "6b9bddb5-1f2a-476d-bd63-f019196ac504")
-	)
-	(pad "" np_thru_hole circle
-		(at 10.5 0)
-		(size 1.2 1.2)
-		(drill 1.2)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "dc953e34-cc9e-4996-a9fa-32906d297414")
 	)
 	(pad "1" smd roundrect
 		(at -2.55 -12.5 180)

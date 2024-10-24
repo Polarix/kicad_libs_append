@@ -8170,7 +8170,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "P"
-			(at -1.016 16.256 0)
+			(at -34.29 13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8179,7 +8179,7 @@
 			)
 		)
 		(property "Value" "TF_Card_Pin"
-			(at -1.016 13.97 0)
+			(at -34.29 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8188,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 -13.97 0)
+			(at -33.02 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8197,7 +8197,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -1.27 5.08 0)
+			(at -1.27 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8206,7 @@
 			)
 		)
 		(property "Description" "TF卡连接端子"
-			(at 0 0 0)
+			(at -7.62 -1.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8223,21 +8223,209 @@
 				(hide yes)
 			)
 		)
-		(symbol "TF_Card_Pin_1_1"
+		(symbol "TF_Card_Pin_0_1"
 			(polyline
 				(pts
-					(xy -2.54 11.43) (xy -2.54 -12.7) (xy 12.7 -12.7) (xy 12.7 12.7) (xy -1.27 12.7) (xy -2.54 11.43)
+					(xy -34.29 10.16) (xy -35.56 8.89) (xy -35.56 -11.43) (xy -34.29 -12.7) (xy -1.27 -12.7) (xy 0 -11.43)
+					(xy 0 11.43) (xy -1.27 12.7) (xy -8.89 12.7) (xy -11.43 10.16) (xy -13.97 10.16) (xy -13.97 12.7)
+					(xy -19.05 12.7) (xy -21.59 10.16) (xy -34.29 10.16)
 				)
 				(stroke
 					(width 0)
 					(type default)
 				)
 				(fill
-					(type background)
+					(type none)
+				)
+			)
+		)
+		(symbol "TF_Card_Pin_1_1"
+			(rectangle
+				(start -34.29 -4.445)
+				(end -24.765 -5.715)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -34.29 0.635)
+				(end -24.765 -0.635)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -33.02 -9.525)
+				(end -24.765 -10.795)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -33.02 -6.985)
+				(end -24.765 -8.255)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -33.02 -1.905)
+				(end -24.765 -3.175)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -33.02 3.175)
+				(end -24.765 1.905)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -33.02 5.715)
+				(end -24.765 4.445)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(rectangle
+				(start -33.02 8.255)
+				(end -24.765 6.985)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 -10.16) (xy -6.35 -10.16)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 -7.62) (xy -6.35 -7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 -5.08) (xy -5.715 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 -2.54) (xy -5.715 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 0) (xy -5.715 0)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 2.54) (xy -5.715 2.54)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 5.08) (xy -10.16 5.08)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -24.13 7.62) (xy -6.35 7.62)
+				)
+				(stroke
+					(width 0)
+					(type dash)
+				)
+				(fill
+					(type none)
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 8.89 0)
+				(at 2.54 7.62 180)
 				(length 2.54)
 				(name "DAT2"
 					(effects
@@ -8255,7 +8443,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 6.35 0)
+				(at 2.54 5.08 180)
 				(length 2.54)
 				(name "DAT3/CD"
 					(effects
@@ -8273,7 +8461,7 @@
 				)
 			)
 			(pin output line
-				(at -5.08 3.81 0)
+				(at 2.54 2.54 180)
 				(length 2.54)
 				(name "CMD"
 					(effects
@@ -8291,7 +8479,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 1.27 0)
+				(at 2.54 0 180)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -8309,7 +8497,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 -1.27 0)
+				(at 2.54 -2.54 180)
 				(length 2.54)
 				(name "CLK"
 					(effects
@@ -8327,7 +8515,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 -3.81 0)
+				(at 2.54 -5.08 180)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -8345,7 +8533,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -5.08 -6.35 0)
+				(at 2.54 -7.62 180)
 				(length 2.54)
 				(name "DAT0"
 					(effects
@@ -8363,7 +8551,7 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 -8.89 0)
+				(at 2.54 -10.16 180)
 				(length 2.54)
 				(name "DAT1"
 					(effects
