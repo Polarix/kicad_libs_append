@@ -1,0 +1,229 @@
+(footprint "WSON8_6×5mm_Slot"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WSON8 6×8mm烧录座")
+	(tags "WSON Slot")
+	(property "Reference" "REF***"
+		(at -4.81 6.765 90)
+		(layer "F.SilkS")
+		(uuid "7e5c43fa-511a-4830-8f34-3597da6c5262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Val**"
+		(at 0 0.635 0)
+		(layer "F.Fab")
+		(uuid "2334b096-ce5a-4cdb-8f44-e835e29a442a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0.635 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be6c1487-b694-4d9b-af64-030ac2cab879")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0.635 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c3c243e-5bc2-4852-829a-d37a2318e13a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "WSON8 6×5mm烧录座"
+		(at 0 0.635 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd8a1743-612f-46cb-b51f-b7a19a808af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start -2.8 -3.815)
+		(end -2.8 5.035)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "87af82fc-3958-4d3f-a7c7-c8ad782abd3d")
+	)
+	(fp_line
+		(start -2.8 5.035)
+		(end 2.8 5.035)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "51d27f47-2696-4474-8cd7-782b2445fae7")
+	)
+	(fp_line
+		(start -1 -3.815)
+		(end -2.8 -3.815)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6c43c3fb-75d3-40e8-a45a-ec96a759290e")
+	)
+	(fp_line
+		(start -1 -2.975)
+		(end -1 -3.815)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "929155d6-3b90-4e5e-b001-c5d8f22b58a5")
+	)
+	(fp_line
+		(start 1 -3.815)
+		(end 1 -2.975)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d743b4fc-5480-47bb-9f17-10872d2af235")
+	)
+	(fp_line
+		(start 1 -2.975)
+		(end -1 -2.975)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ad328e38-8556-4b58-9049-c03df2f9479f")
+	)
+	(fp_line
+		(start 2.8 -3.815)
+		(end 1 -3.815)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ba82b902-aa25-4cbb-b493-fb8dd17d3e77")
+	)
+	(fp_line
+		(start 2.8 5.035)
+		(end 2.8 -3.815)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "68cfa458-cd5d-43d5-b1ad-de6f50fade93")
+	)
+	(fp_circle
+		(center 0 -0.865)
+		(end 0.55 -0.865)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6192007d-3e93-4fb1-941a-8d8266b1e3b1")
+	)
+	(fp_circle
+		(center 0 2.135)
+		(end 0.55 2.135)
+		(stroke
+			(width 0.254)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "03f60ad2-ac96-42d9-9a99-453b9ebd70e6")
+	)
+	(fp_rect
+		(start -3 -2.5)
+		(end 3 2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "439ea563-e7e0-46fd-8753-94c538f362bb")
+	)
+	(pad "1" smd oval
+		(at -4.2 -1.905)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36a5b0c2-4679-4278-8ab0-9397d1aa177c")
+	)
+	(pad "2" smd oval
+		(at -4.2 -0.635)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "61e0cd31-5736-432c-a43d-b6e85ae7ef02")
+	)
+	(pad "3" smd oval
+		(at -4.2 0.635)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "151cc43f-5fb5-4574-bd29-777477bd4d13")
+	)
+	(pad "4" smd oval
+		(at -4.2 1.905)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0fd81034-a5e9-4f14-b1a3-ef802ef2ba33")
+	)
+	(pad "5" smd oval
+		(at 4.2 1.905)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3816ecfc-5661-4e0c-accd-a49533c83779")
+	)
+	(pad "6" smd oval
+		(at 4.2 0.635)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8fa9f5ce-2477-4695-8443-6ac3b0f2eae8")
+	)
+	(pad "7" smd oval
+		(at 4.2 -0.635)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fb49017f-4e9e-4f5e-9c92-96ef96c19733")
+	)
+	(pad "8" smd oval
+		(at 4.2 -1.905)
+		(size 2.2 0.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0defcb55-7d50-4473-8f55-7e16240dd1b6")
+	)
+)
