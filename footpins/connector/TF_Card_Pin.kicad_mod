@@ -6,7 +6,7 @@
 	(descr "TF卡外形封装，用于转接器设计")
 	(tags "TF SD Connector Slot")
 	(property "Reference" "REF**"
-		(at 5.8 -9.5 0)
+		(at 5.15 -9.5 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "86cb15d6-73f7-4c61-ab1c-ffc9bd25de53")
@@ -19,7 +19,7 @@
 		)
 	)
 	(property "Value" "TF_Card_Pin"
-		(at 5.8 -8 0)
+		(at 5.15 -8 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "53953d89-e190-4f9b-a220-2b4fd25296a6")
@@ -44,7 +44,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 1.3 0 0)
+		(at 0.65 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,9 +69,9 @@
 	)
 	(attr through_hole)
 	(fp_arc
-		(start -4.8 -1.5)
-		(mid 0.65 -1.833336)
-		(end 6.1 -1.5)
+		(start -5.45 -1.5)
+		(mid 0 -1.833336)
+		(end 5.45 -1.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -80,8 +80,8 @@
 		(uuid "e4f8c413-4cc2-4437-b811-fa7d196d2948")
 	)
 	(fp_line
-		(start 6.15 -1.84)
-		(end -4.85 -1.84)
+		(start 5.5 -1.84)
+		(end -5.5 -1.84)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -90,8 +90,8 @@
 		(uuid "c38ff238-6f4e-4be1-adb4-533a9d733e5d")
 	)
 	(fp_line
-		(start 6.15 0)
-		(end -4.85 0)
+		(start 5.5 0)
+		(end -5.5 0)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -100,8 +100,8 @@
 		(uuid "d6acd5b2-f3f8-4c3e-8d16-734222801c6e")
 	)
 	(fp_line
-		(start -4.85 -8)
-		(end -4.85 -7.1)
+		(start -5.5 -8)
+		(end -5.5 -7.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -110,8 +110,8 @@
 		(uuid "d2187ce3-87dd-473e-be56-a4429e57014b")
 	)
 	(fp_line
-		(start -4.85 -7.1)
-		(end -3.55 -7.1)
+		(start -5.5 -7.1)
+		(end -4.2 -7.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -120,8 +120,8 @@
 		(uuid "832265b1-4d0f-4624-99e1-0c2a1b9af10a")
 	)
 	(fp_line
-		(start -4.85 0)
-		(end -4.85 -4.6)
+		(start -5.5 0)
+		(end -5.5 -4.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -130,8 +130,8 @@
 		(uuid "5911ef02-f80c-4042-a0ef-51d22459908a")
 	)
 	(fp_line
-		(start -3.55 -14.5)
-		(end -3.55 -9.3)
+		(start -4.2 -14.5)
+		(end -4.2 -9.3)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -140,8 +140,8 @@
 		(uuid "58663429-0448-4ef0-87f9-9da0f89844ae")
 	)
 	(fp_line
-		(start -3.55 -9.3)
-		(end -4.85 -8)
+		(start -4.2 -9.3)
+		(end -5.5 -8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -150,8 +150,8 @@
 		(uuid "341fb731-8ea5-46fc-8e3a-c3cf28eca8b8")
 	)
 	(fp_line
-		(start -3.55 -7.1)
-		(end -3.55 -5.9)
+		(start -4.2 -7.1)
+		(end -4.2 -5.9)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -160,8 +160,8 @@
 		(uuid "ecba3ae9-3258-4472-b227-0b1ad8fb56d0")
 	)
 	(fp_line
-		(start -3.55 -5.9)
-		(end -4.85 -4.6)
+		(start -4.2 -5.9)
+		(end -5.5 -4.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -170,8 +170,8 @@
 		(uuid "01101f78-cf24-4361-b11d-e90dfc3b7e44")
 	)
 	(fp_line
-		(start 5.65 -15)
-		(end -3.05 -15)
+		(start 5 -15)
+		(end -3.7 -15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -180,8 +180,8 @@
 		(uuid "831757d7-58dc-4d42-8b7a-ac7be445164f")
 	)
 	(fp_line
-		(start 6.15 -14.5)
-		(end 6.15 0)
+		(start 5.5 -14.5)
+		(end 5.5 0)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -190,9 +190,9 @@
 		(uuid "b8625cc6-1294-49fb-9090-9f363bcc0eea")
 	)
 	(fp_arc
-		(start -3.55 -14.5)
-		(mid -3.403553 -14.853553)
-		(end -3.05 -15)
+		(start -4.2 -14.5)
+		(mid -4.053553 -14.853553)
+		(end -3.7 -15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -201,9 +201,9 @@
 		(uuid "e7387997-dcf3-4e68-b2ee-61e61a68b9ca")
 	)
 	(fp_arc
-		(start 5.65 -15)
-		(mid 6.003553 -14.853553)
-		(end 6.15 -14.5)
+		(start 5 -15)
+		(mid 5.353553 -14.853553)
+		(end 5.5 -14.5)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -212,28 +212,28 @@
 		(uuid "6b9bddb5-1f2a-476d-bd63-f019196ac504")
 	)
 	(pad "1" smd roundrect
-		(at -2.55 -12.5 180)
+		(at -3.2 -12.5 180)
 		(size 0.8 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "a460d32a-faef-4ec3-9cf2-0335f5de46ea")
 	)
 	(pad "2" smd roundrect
-		(at -1.45 -12.5 180)
+		(at -2.1 -12.5 180)
 		(size 0.8 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "806e3591-3c30-4403-828a-ae2e481d4415")
 	)
 	(pad "3" smd roundrect
-		(at -0.35 -12.5 180)
+		(at -1 -12.5 180)
 		(size 0.8 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "3586fbcc-76f1-4e5d-b958-f39cb0fb1326")
 	)
 	(pad "4" smd roundrect
-		(at 0.75 -12.5 180)
+		(at 0.1 -12.5 180)
 		(size 0.8 3.3)
 		(drill
 			(offset 0 0.15)
@@ -243,14 +243,14 @@
 		(uuid "25a4baba-9970-4655-8127-7c48f778b0cf")
 	)
 	(pad "5" smd roundrect
-		(at 1.85 -12.5 180)
+		(at 1.2 -12.5 180)
 		(size 0.8 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "72562597-bb5f-4678-8779-9c67f02f3703")
 	)
 	(pad "6" smd roundrect
-		(at 2.95 -12.5 180)
+		(at 2.3 -12.5 180)
 		(size 0.8 3.3)
 		(drill
 			(offset 0 0.15)
@@ -260,14 +260,14 @@
 		(uuid "1878e8d0-2f3a-4e49-ab09-c6f210b0c954")
 	)
 	(pad "7" smd roundrect
-		(at 4.05 -12.5 180)
+		(at 3.4 -12.5 180)
 		(size 0.8 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "80d9b6e1-bd23-4163-8bd8-cb28377169c7")
 	)
 	(pad "8" smd roundrect
-		(at 5.15 -12.5 180)
+		(at 4.5 -12.5 180)
 		(size 0.8 3)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
