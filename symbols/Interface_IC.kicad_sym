@@ -1223,7 +1223,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "USB UART Serial Converter Interface"
+		(property "ki_keywords" "USB TF SD Card Reader Interface"
 			(at 0 0 0)
 			(effects
 				(font
