@@ -1,0 +1,97 @@
+(footprint "SMT_Screw_holes_M2_6.2mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(tags "resistor")
+	(property "Reference" "REF**"
+		(at 0.05 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "6df974b4-b819-4abf-a570-cfac24b90f22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SMT_Screw_holes_M2_6.2mm"
+		(at 0 1.43 0)
+		(layer "F.Fab")
+		(uuid "43a2d3f9-8880-4891-bb65-e1f1adf1c2a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SMT_Screw_holes_M2_6.2mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "07e67089-31f3-450a-8ad2-a9786de1e1f0")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f87c94d-0df7-45d6-8caa-f6821f0d3fd7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbe1b3e3-aca8-409e-a6d6-08b057b5c09e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "60ad92d3-57d1-4201-a775-ff10777c1c22")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "cc22d8ab-6b76-4970-9c12-2f16e9a14137")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 6.2 6.2)
+		(drill 4.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "958f80d5-b7aa-4100-9f8f-c88ef419994d")
+	)
+)
