@@ -1291,7 +1291,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at 10.16 -3.81 180)
 				(length 2.54)
 				(name "GPIO"
@@ -1507,7 +1507,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin power_in line
 				(at -10.16 -8.89 0)
 				(length 2.54)
 				(name "PMOS"
