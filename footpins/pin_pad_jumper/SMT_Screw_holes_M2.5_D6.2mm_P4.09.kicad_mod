@@ -1,4 +1,4 @@
-(footprint "SMT_Screw_holes_M2.5_6.2mm"
+(footprint "SMT_Screw_holes_M2.5_D6.2mm_P4.09"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SMT_Screw_holes_M2.5_6.2mm"
+	(property "Value" "SMT_Screw_holes_M2.5_D6.2mm_P4.09"
 		(at 0 1.43 0)
 		(layer "F.Fab")
 		(uuid "43a2d3f9-8880-4891-bb65-e1f1adf1c2a5")
@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" "SMT_Screw_holes_M2.5_6.2mm"
+	(property "Footprint" "SMT_Screw_holes_M2.5_D6.2mm_P4.09"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -88,7 +88,7 @@
 	(pad "1" thru_hole circle
 		(at 0 0)
 		(size 6.2 6.2)
-		(drill 3.7)
+		(drill 4.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "958f80d5-b7aa-4100-9f8f-c88ef419994d")
