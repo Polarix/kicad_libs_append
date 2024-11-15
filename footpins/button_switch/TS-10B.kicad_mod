@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(descr "位置检测开关")
-	(tags "位置 检测 开关 position switch")
+	(tags "位置 检测 开关 position switch HD-25 3.7mm 4.75mm")
 	(property "Reference" "REF**"
 		(at 0.05 -3.6 0)
 		(layer "F.SilkS")
@@ -65,8 +65,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1.25 -0.5)
-		(end -1.25 0.5)
+		(start -0.8 -0.75)
+		(end -0.8 0.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -86,8 +86,8 @@
 		(uuid "6c421953-ca61-4fd2-b661-ccf27b7926cb")
 	)
 	(fp_rect
-		(start -2 -0.5)
-		(end -0.5 0.5)
+		(start -1.55 -0.75)
+		(end -0.05 0.75)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -239,16 +239,16 @@
 		)
 	)
 	(pad "" np_thru_hole circle
-		(at -0.75 0)
-		(size 0.7 0.7)
-		(drill 0.7)
+		(at -1.5 0)
+		(size 0.9 0.9)
+		(drill 0.9)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "3214df76-1827-4549-8fd7-c0540a25c1f6")
 	)
 	(pad "" np_thru_hole circle
-		(at 1.75 0)
-		(size 0.8 0.8)
-		(drill 0.8)
+		(at 1.05 0)
+		(size 1.1 1.1)
+		(drill 1.1)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "4282edf5-2dc8-477e-b314-3608628d6bc9")
 	)
