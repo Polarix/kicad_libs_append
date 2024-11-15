@@ -1,0 +1,290 @@
+(footprint "TS-10B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "位置检测开关")
+	(tags "位置 检测 开关 position switch")
+	(property "Reference" "REF**"
+		(at 0.05 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "c0ac780b-1a79-404e-ba52-246dbc240d91")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TS-10B"
+		(at -0.05 3.6 0)
+		(layer "F.Fab")
+		(uuid "7e9a1800-f41c-40df-90fc-a1cd155744fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "TS-10B"
+		(at 0.5 9.2 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6518c5ec-2652-4449-bc9f-654e13f93659")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98ffec59-3fb6-405b-ba77-41bf3bbb77cd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "贴片位置检测开关"
+		(at -0.05 5.65 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f332d20-fa85-4252-86a8-4663117e4d68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.25 -0.5)
+		(end -1.25 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c65cde2f-f722-4a1f-bb9b-370b636e6037")
+	)
+	(fp_rect
+		(start -2.3 -1.7)
+		(end 2.3 1.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "6c421953-ca61-4fd2-b661-ccf27b7926cb")
+	)
+	(fp_rect
+		(start -2 -0.5)
+		(end -0.5 0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "0d1873ce-effe-4c5a-bf1b-a118f044a508")
+	)
+	(fp_line
+		(start -2.5 -1.9)
+		(end -2.5 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "352eb213-01e8-4125-ad40-71627b8cfff7")
+	)
+	(fp_line
+		(start -2.5 1.9)
+		(end -1.75 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c341b393-692a-4966-9c39-80067ff3542f")
+	)
+	(fp_line
+		(start -1.75 -3.05)
+		(end -1.75 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "509a72d9-6ad8-4615-8413-9dac61ab0a1c")
+	)
+	(fp_line
+		(start -1.75 -1.9)
+		(end -2.5 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "48983beb-180e-438e-866f-9c5731b0c4b9")
+	)
+	(fp_line
+		(start -1.75 1.9)
+		(end -1.75 3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5dd68c7b-e5be-4e2e-95f6-27c5d7a4ee5d")
+	)
+	(fp_line
+		(start -1.75 3.05)
+		(end 1.75 3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "be60293d-26b7-4d49-9fad-5d1a487f27b6")
+	)
+	(fp_line
+		(start 1.75 -3.05)
+		(end -1.75 -3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "17d07544-048f-41a5-a177-a4a04d83f85b")
+	)
+	(fp_line
+		(start 1.75 -1.9)
+		(end 1.75 -3.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "2edfb6e4-666d-47b5-aca0-32d65ea3b9a2")
+	)
+	(fp_line
+		(start 1.75 1.9)
+		(end 2.5 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6d8495b6-5903-45e0-98b0-b62a6a14bc79")
+	)
+	(fp_line
+		(start 1.75 3.05)
+		(end 1.75 1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "6fa5dd86-026d-488a-a84c-3a1b014b9ba4")
+	)
+	(fp_line
+		(start 2.5 -1.9)
+		(end 1.75 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "df2d48e7-7167-49ce-a77d-198fd2982a27")
+	)
+	(fp_line
+		(start 2.5 1.9)
+		(end 2.5 -1.9)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "aa1c492b-7404-4a07-a75f-489b997b72d6")
+	)
+	(fp_rect
+		(start -2.4 -1.8)
+		(end 2.4 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "8a89f511-9b4f-41ce-b256-2b956994eef0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 7.5 0)
+		(layer "F.Fab")
+		(uuid "22abfc6a-2f6b-4a7d-92ab-e0e7d989341e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -0.75 0)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "3214df76-1827-4549-8fd7-c0540a25c1f6")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.75 0)
+		(size 0.8 0.8)
+		(drill 0.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "4282edf5-2dc8-477e-b314-3608628d6bc9")
+	)
+	(pad "1" smd rect
+		(at -1.2 -2.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "be65994c-f837-4559-be39-148c36ddc563")
+	)
+	(pad "1" smd rect
+		(at 1.2 -2.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "14c958eb-3433-4f0b-955e-99900dc496e1")
+	)
+	(pad "2" smd rect
+		(at -1.2 2.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "72621c54-5d48-46cf-8045-fec7dfc6ad99")
+	)
+	(pad "2" smd rect
+		(at 1.2 2.5)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "686a12f9-385f-4741-9e8c-9aaf85188674")
+	)
+	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_Vertical_Wuerth_434133025816.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
