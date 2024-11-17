@@ -13,15 +13,18 @@
 |名称|描述|
 | -|-|
 |Antenna|天线|
-|Button_Switch|按钮和开关|
+|Button_Switch|按钮、开关、摇杆、编码器等|
 |Connector|端子、连接器|
+|Deprecated|即将废弃的旧封装或临时封装|
 |General|普通元件或未分类元件|
+|INterface_IC|接口IC，例如USB、窗口、网络接口等|
 |MCU_SOC_FPGA|MCU等可编程器件|
 |Modules|模块|
 |Motor_Driver|电机驱动IC|
 |Power_IC|电源IC|
 |Screen|屏幕|
-> ※ General 类目中的符号可能会经常变动，请谨慎使用。    
+> ※ Deprecated 类目中的符号可能会经常变动，请谨慎使用。    
+> ※ General 库用于不方便归类的普通、常见器件，可能会经常变动，请谨慎使用。    
 > ※ 未在上述列表中记述的库，可能会在未来合并到现有的其他库或删除，请谨慎使用。    
 
 ## 封装库
@@ -31,11 +34,12 @@
 |名称|描述|
 | -|-|
 |antenna|天线|
-|button_switch|按钮和开关|
+|button_switch|按钮、开关、摇杆、编码器等|
 |connector|端子、连接器|
 |deprecated|将被弃用或移动到其他库的封装|
 |general|普通元件或未分类元件|
 |modules|模块|
+|pin_pad_jumper|独立点、焊盘、螺柱、跳线等|
 |screens|屏幕|
 |slot|插槽、插座|
 |special|特殊封装|
