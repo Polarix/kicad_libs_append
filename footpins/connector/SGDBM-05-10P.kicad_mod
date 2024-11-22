@@ -1,0 +1,214 @@
+(footprint "SGDBM-05-10P"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "山谷道10P 0.5mm板对板连接器")
+	(tags "山谷道 SGD 10P 0.5mm B2B")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "86cb15d6-73f7-4c61-ab1c-ffc9bd25de53")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SGDBM-05-10P"
+		(at 0 -5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53953d89-e190-4f9b-a220-2b4fd25296a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SGDBM-05-10P"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "beb81a12-09e5-4243-9360-b6dcec6366d1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4f76c8bf-0f61-4d62-b420-99fcf9377963")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92a0e198-9ccd-47fb-ab62-82bc5c2b5339")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.1 -2.7)
+		(end 2.1 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7ca74adf-40ed-4cdf-a06b-9a69d64bacd5")
+	)
+	(fp_line
+		(start -2.1 -1.2)
+		(end -2.1 -2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a873a1bb-63be-44c8-8941-9045937a5a00")
+	)
+	(fp_line
+		(start -2.1 2.7)
+		(end -2.1 1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e5042a4e-0de9-43c3-9cdb-6fdd4ba723bf")
+	)
+	(fp_line
+		(start 2.1 -2.7)
+		(end 2.1 -1.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9f89015f-feaf-4f2d-88e4-9397b961a1d2")
+	)
+	(fp_line
+		(start 2.1 1.2)
+		(end 2.1 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "44ef3378-3bdc-46b1-b493-b59db5e56005")
+	)
+	(fp_line
+		(start 2.1 2.7)
+		(end -2.1 2.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "21999f85-c8c8-46c8-9f4d-9a20383006bf")
+	)
+	(fp_rect
+		(start -2 -2.6)
+		(end 2 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "d4724672-dca8-460c-a375-e50564557ce0")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.25 -1.95)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2f51d845-965a-4a61-aa23-1979e77a1a1a")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.25 1.95)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "dc953e34-cc9e-4996-a9fa-32906d297414")
+	)
+	(pad "1" smd rect
+		(at -2 -1 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "01a8836d-1a30-44fd-a726-f170bca6e32d")
+	)
+	(pad "2" smd rect
+		(at 2 -1 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "80d9b6e1-bd23-4163-8bd8-cb28377169c7")
+	)
+	(pad "3" smd rect
+		(at -2 -0.5 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1878e8d0-2f3a-4e49-ab09-c6f210b0c954")
+	)
+	(pad "4" smd rect
+		(at 2 -0.5 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "72562597-bb5f-4678-8779-9c67f02f3703")
+	)
+	(pad "5" smd rect
+		(at -2 0 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "25a4baba-9970-4655-8127-7c48f778b0cf")
+	)
+	(pad "6" smd rect
+		(at 2 0 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3586fbcc-76f1-4e5d-b958-f39cb0fb1326")
+	)
+	(pad "7" smd rect
+		(at -2 0.5 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "806e3591-3c30-4403-828a-ae2e481d4415")
+	)
+	(pad "8" smd rect
+		(at 2 0.5 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a460d32a-faef-4ec3-9cf2-0335f5de46ea")
+	)
+	(pad "9" smd rect
+		(at -2 1 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8e3e1b22-3d36-41b6-a1f7-dfaf3a40091a")
+	)
+	(pad "10" smd rect
+		(at 2 1 180)
+		(size 2 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4768475b-a441-4af9-9013-8c3c23ffe1e8")
+	)
+)
