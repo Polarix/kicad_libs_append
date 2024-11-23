@@ -2180,7 +2180,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -7.62 180)
+				(at 10.16 7.62 180)
 				(length 2.54)
 				(name "TEST"
 					(effects
@@ -2234,7 +2234,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at 10.16 -2.54 180)
 				(length 2.54)
 				(name "BAT"
 					(effects
@@ -2252,7 +2252,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -2.54 180)
+				(at 10.16 -7.62 180)
 				(length 2.54)
 				(name "ICHG"
 					(effects
@@ -2270,7 +2270,7 @@
 				)
 			)
 			(pin power_out line
-				(at 10.16 7.62 180)
+				(at 10.16 2.54 180)
 				(length 2.54)
 				(name "SW"
 					(effects
