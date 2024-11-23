@@ -1,0 +1,267 @@
+(footprint "KFC-V-501"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "立式微动检测开关")
+	(tags "立式 微动 开关 SMD")
+	(property "Reference" "REF**"
+		(at -2.25 -4.85 0)
+		(layer "F.SilkS")
+		(uuid "f3f5d65c-c71a-4caf-93bf-07d12fcdb94c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "EC04"
+		(at -2.5 -5 0)
+		(layer "F.Fab")
+		(uuid "3c993280-f2dd-4a39-ab09-2d5856b9c51c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" "KFC-V-501"
+		(at 0 5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9166e819-f031-49e0-a4c8-1023bdfbcf95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fc32b967-2824-4bff-9f67-747123c7b754")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "立式微动检测开关"
+		(at 0 7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03b2e269-f67e-48e4-a478-768a39b818d3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -2.95 -1.1)
+		(end 2.95 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3846a8a4-a285-4ddc-b1be-84fc8820ba4c")
+	)
+	(fp_line
+		(start -3.05 -1.25)
+		(end -2.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e784ea6-395e-42e8-b19a-ed98ffd8b7e7")
+	)
+	(fp_line
+		(start -3.05 1.25)
+		(end -3.05 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "51f4027d-d2e6-4b4d-8928-ef348cc8897f")
+	)
+	(fp_line
+		(start -3.05 1.25)
+		(end -2.5 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "645607cf-3442-414a-ad29-e174034b43b7")
+	)
+	(fp_line
+		(start -2.5 -2.7)
+		(end -2.5 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e9beec86-a7d6-4d6f-afaf-651ff8991711")
+	)
+	(fp_line
+		(start -2.5 1.25)
+		(end -2.5 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f607e285-30c4-4f84-b08d-9da0764f33de")
+	)
+	(fp_line
+		(start -2.5 2.7)
+		(end 2.5 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "47f654a1-639e-4d63-a2e4-f2a08d3be2ab")
+	)
+	(fp_line
+		(start 2.5 -2.7)
+		(end -2.5 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5d86c938-f0ca-4b3b-aa48-bececd7017b3")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 2.5 -2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f77410af-2427-487f-ae5c-3dd2e2764aa4")
+	)
+	(fp_line
+		(start 2.5 -1.25)
+		(end 3.05 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "45c9b862-f2f5-45ee-bd64-6ad2878bc201")
+	)
+	(fp_line
+		(start 2.5 1.25)
+		(end 2.5 2.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "9f8f827d-65d9-4328-833c-4749c9e0f44a")
+	)
+	(fp_line
+		(start 2.5 1.25)
+		(end 3.05 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b9a23ed-8b78-41c9-91ff-5e34c3cfe9d2")
+	)
+	(fp_line
+		(start 3.05 1.25)
+		(end 3.05 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "d2d223cc-d7a8-4cca-bdc3-215b044e73a5")
+	)
+	(fp_rect
+		(start -2.85 -1)
+		(end 2.85 1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "758da718-f44d-46ec-abdd-bf4dc40ecfff")
+	)
+	(fp_rect
+		(start -2.25 -0.3)
+		(end 0.25 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "6078f08d-b232-41cf-81d6-bff808fb0d5c")
+	)
+	(pad "" np_thru_hole circle
+		(at -2 0)
+		(size 1.3 1.3)
+		(drill 1.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "77655b0c-2593-4122-904a-367dc0446643")
+	)
+	(pad "" np_thru_hole circle
+		(at 2 0)
+		(size 1.1 1.1)
+		(drill 1.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "16f4cd83-5325-4dbd-aaf1-fbb3d11d9b8d")
+	)
+	(pad "1" smd rect
+		(at -1.75 -1.95)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "2b48c8fb-9ad7-4ae1-8874-028273735b29")
+	)
+	(pad "1" smd rect
+		(at -1.75 1.95)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "701705a3-9647-428d-af15-216e46a6ea1c")
+	)
+	(pad "2" smd rect
+		(at 1.75 -1.95)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e14775b0-63a8-41cb-a7ec-315cfaed61e0")
+	)
+	(pad "2" smd rect
+		(at 1.75 1.95)
+		(size 1.4 1.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f6971909-5fb8-4bff-802b-5f6d30fe3169")
+	)
+)
