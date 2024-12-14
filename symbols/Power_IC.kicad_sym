@@ -2162,9 +2162,9 @@
 		)
 		(symbol "IP2312_1_1"
 			(pin output line
-				(at -10.16 2.54 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
-				(name "D1/CHRG"
+				(name "D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2198,9 +2198,9 @@
 				)
 			)
 			(pin output line
-				(at -10.16 -2.54 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "D2/DONE"
+				(name "D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2288,7 +2288,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 7.62 0)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "VIN"
 					(effects
