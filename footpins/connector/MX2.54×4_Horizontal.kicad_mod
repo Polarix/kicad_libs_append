@@ -17,7 +17,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "MX2.54×4"
+	(property "Value" "MX2.54×4P"
 		(at -0.254 -2.032 0)
 		(layer "F.Fab")
 		(uuid "494d4ce3-60c4-4021-8bd1-ab41a12b14ed")
@@ -29,7 +29,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "MX2.54×4P"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
