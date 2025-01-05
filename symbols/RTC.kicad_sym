@@ -116,7 +116,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 7.62 270)
+				(at 2.54 7.62 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -170,7 +170,7 @@
 				)
 			)
 			(pin input line
-				(at -12.7 -2.54 0)
+				(at -12.7 0 0)
 				(length 2.54)
 				(name "SCL"
 					(effects
@@ -188,7 +188,7 @@
 				)
 			)
 			(pin output line
-				(at 12.7 0 180)
+				(at -12.7 -2.54 0)
 				(length 2.54)
 				(name "INT"
 					(effects
@@ -206,7 +206,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 7.62 270)
+				(at -2.54 7.62 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
