@@ -2702,7 +2702,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_in line
 				(at 0 -12.7 90)
 				(length 2.54) hide
 				(name "GND"
