@@ -9872,7 +9872,7 @@
 			)
 		)
 		(property "Value" "PY32F002AF15P"
-			(at -3.81 16.51 0)
+			(at 2.54 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9900,7 +9900,7 @@
 			)
 		)
 		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, TSSOP20"
-			(at 0 0 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9941,7 +9941,7 @@
 		)
 		(symbol "PY32F002AF15P_1_1"
 			(pin power_in line
-				(at -12.7 7.62 0)
+				(at 0 -20.32 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -10157,7 +10157,7 @@
 				)
 			)
 			(pin power_in line
-				(at -12.7 10.16 0)
+				(at 0 17.78 270)
 				(length 2.54)
 				(name "VCC"
 					(effects
@@ -10265,7 +10265,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 0 0)
+				(at -12.7 10.16 0)
 				(length 2.54)
 				(name "PF0/OSCIN"
 					(effects
@@ -10283,7 +10283,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 2.54 0)
+				(at -12.7 7.62 0)
 				(length 2.54)
 				(name "PF1/OSCOUT"
 					(effects
@@ -10316,7 +10316,7 @@
 			)
 		)
 		(property "Value" "PY32F002AF15U"
-			(at -3.81 16.51 0)
+			(at 2.54 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10344,7 +10344,7 @@
 			)
 		)
 		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, QFN-20"
-			(at 0 0 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10384,10 +10384,10 @@
 			)
 		)
 		(symbol "PY32F002AF15U_1_1"
-			(pin power_in line
-				(at -12.7 7.62 0)
+			(pin bidirectional line
+				(at 12.7 -2.54 180)
 				(length 2.54)
-				(name "VSS"
+				(name "PA5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10395,6 +10395,96 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "PB5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -12.7 0)
+				(length 2.54)
+				(name "PB6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 2.54 0)
+				(length 2.54)
+				(name "PF4/BOOT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "PF0/OSCIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 7.62 0)
+				(length 2.54)
+				(name "PF1/OSCOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10412,7 +10502,7 @@
 						)
 					)
 				)
-				(number "10"
+				(number "15"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10430,7 +10520,7 @@
 						)
 					)
 				)
-				(number "11"
+				(number "16"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10448,7 +10538,7 @@
 						)
 					)
 				)
-				(number "12"
+				(number "17"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10466,7 +10556,7 @@
 						)
 					)
 				)
-				(number "13"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10484,187 +10574,7 @@
 						)
 					)
 				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 0 180)
-				(length 2.54)
-				(name "PA4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -7.62 180)
-				(length 2.54)
-				(name "PA7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -12.7 0)
-				(length 2.54)
-				(name "PB0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -7.62 0)
-				(length 2.54)
-				(name "PB2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -10.16 0)
-				(length 2.54)
-				(name "PB1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -10.16 180)
-				(length 2.54)
-				(name "PA13/SWD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "VCC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 12.7 -12.7 180)
-				(length 2.54)
-				(name "PA14/SWC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -5.08 0)
-				(length 2.54)
-				(name "PB3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "PB6/PF4/BOOT0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10682,6 +10592,114 @@
 						)
 					)
 				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 0 180)
+				(length 2.54)
+				(name "PA4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -20.32 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 12.7 -7.62 180)
+				(length 2.54)
+				(name "PA7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -2.54 0)
+				(length 2.54)
+				(name "PB0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "PB1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 17.78 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
 				(number "6"
 					(effects
 						(font
@@ -10691,9 +10709,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 12.7 -2.54 180)
+				(at 12.7 -10.16 180)
 				(length 2.54)
-				(name "PA5"
+				(name "PA13/SWD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10709,9 +10727,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 0 0)
+				(at 12.7 -12.7 180)
 				(length 2.54)
-				(name "PF0/OSCIN"
+				(name "PA14/SWC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10727,9 +10745,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -12.7 2.54 0)
+				(at -12.7 -7.62 0)
 				(length 2.54)
-				(name "PF1/OSCOUT"
+				(name "PB3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10779,7 +10797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.puyasemi.com/"
-			(at 18.8976 -26.3652 0)
+			(at 0 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10788,7 +10806,7 @@
 			)
 		)
 		(property "Description" "ARM Cortex-M0+ MCU, 32KB flash, 4KB RAM, 24MHz, 1.7-5.5V, QFN16"
-			(at 1.778 -22.606 0)
+			(at 0 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
