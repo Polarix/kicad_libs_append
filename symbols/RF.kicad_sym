@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.4GHz GFSK 无线收发芯片"
+		(property "Description" "2.4GHz GFSK 无线收发芯片 SOP-8封装"
 			(at 0 0 0)
 			(effects
 				(font
@@ -78,7 +78,7 @@
 		)
 		(symbol "Ci24R1-SOP_1_1"
 			(pin input line
-				(at -10.16 7.62 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -114,7 +114,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "DAT/IRQ"
 					(effects
@@ -132,7 +132,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "XC1"
 					(effects
@@ -150,7 +150,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -7.62 180)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "XC2"
 					(effects
@@ -168,7 +168,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 -2.54 180)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -186,7 +186,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 2.54 180)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -204,7 +204,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 7.62 180)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -266,7 +266,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "2.4GHz GFSK 无线收发芯片"
+		(property "Description" "2.4GHz GFSK 无线收发芯片 DFN-8封装"
 			(at 0 0 0)
 			(effects
 				(font
@@ -299,7 +299,7 @@
 		)
 		(symbol "Ci24R1_DFN_1_1"
 			(pin bidirectional line
-				(at -10.16 7.62 0)
+				(at 10.16 0 180)
 				(length 2.54)
 				(name "ANT"
 					(effects
@@ -317,7 +317,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 2.54 0)
+				(at 0 -12.7 90)
 				(length 2.54)
 				(name "VSS"
 					(effects
@@ -335,7 +335,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "CSN"
 					(effects
@@ -353,7 +353,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "SCK"
 					(effects
@@ -371,7 +371,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 10.16 -7.62 180)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "DAT/IRQ"
 					(effects
@@ -389,7 +389,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 -2.54 180)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "XC1"
 					(effects
@@ -407,7 +407,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "XC2"
 					(effects
@@ -425,7 +425,7 @@
 				)
 			)
 			(pin power_in line
-				(at 10.16 7.62 180)
+				(at 0 12.7 270)
 				(length 2.54)
 				(name "VDD"
 					(effects
@@ -443,7 +443,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 2.54 0)
+				(at 0 -12.7 90)
 				(length 2.54) hide
 				(name "VSS"
 					(effects
