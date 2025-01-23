@@ -1,0 +1,208 @@
+(footprint "IPEX_V1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "IPEX1代贴片连接座")
+	(tags "IPEX SMD Connector")
+	(property "Reference" "REF**"
+		(at -2.413 -3.048 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "6c20725d-a63b-40be-b3c1-76695f2980f4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Ceramic antenna"
+		(at -2.54 -4.191 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2414185b-6a26-4b05-9152-0452e59fd61e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "871eabb4-e236-4da7-9997-328d32860b79")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "IPEX1代贴片连接座"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d6295b40-844f-4b78-85c5-5f0cbba161cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45fc61ee-e5c7-48d1-88b4-15b06effd830")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.9 1.25)
+		(end -1.9 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c1275543-68b9-42d0-a9eb-fb74656ccf1b")
+	)
+	(fp_line
+		(start -1.9 1.9)
+		(end -0.65 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "64db7dce-1ddb-48fc-8b66-75be89da4527")
+	)
+	(fp_line
+		(start -0.6 -2.05)
+		(end 0.6 -2.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12c2c65e-acab-4d04-bb4b-94009e7707b1")
+	)
+	(fp_line
+		(start -0.6 -1.85)
+		(end -0.6 -2.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eda9846c-624f-4be7-bed1-430d57b723b5")
+	)
+	(fp_line
+		(start 0.6 -1.85)
+		(end 0.6 -2.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3554e6dc-ea5f-42d2-a02d-a1fcdd1fccb9")
+	)
+	(fp_line
+		(start 1.9 1.2)
+		(end 1.9 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5583fa5b-5272-4674-996e-7a9014203269")
+	)
+	(fp_line
+		(start 1.9 1.9)
+		(end 0.65 1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b61b349-f56d-4b41-93fd-33b8dc3cb624")
+	)
+	(fp_rect
+		(start -2 -2)
+		(end 2 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b22947ca-2859-415f-89de-d3cebf22c9cc")
+	)
+	(fp_rect
+		(start -1.3 -1.3)
+		(end 1.3 1.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "35a59a47-27b4-4a3d-b73c-69faf8bb232e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29790ced-f39a-4894-a8ae-943283c6fffe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd roundrect
+		(at 0 1.4 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "81a61674-5b0d-466d-87c1-07fa42bafbe8")
+	)
+	(pad "1" smd roundrect
+		(at 0 -1.4 180)
+		(size 1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "f84c7107-9561-49a0-8fda-46ff734bede1")
+	)
+	(pad "2" smd roundrect
+		(at -1.5 0 180)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "91b5b2b7-5ca9-4c73-a882-f01df30c9928")
+	)
+	(pad "2" smd roundrect
+		(at 1.5 0)
+		(size 0.8 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.1)
+		(thermal_bridge_angle 45)
+		(uuid "8387b1ff-8350-4bc0-9da0-1eb5fd0d4cc8")
+	)
+)
