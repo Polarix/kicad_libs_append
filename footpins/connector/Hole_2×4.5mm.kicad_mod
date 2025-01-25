@@ -75,7 +75,7 @@
 		(layer "F.CrtYd")
 		(uuid "ecbe8dc8-c4b0-4281-a38b-9ef5b64b1852")
 	)
-	(pad "1" thru_hole circle
+	(pad "MP" thru_hole circle
 		(at 0 0)
 		(size 4.5 4.5)
 		(drill 2.1)
