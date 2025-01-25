@@ -11142,7 +11142,7 @@
 				(alternate "SYS_JTMS-SWDIO" bidirectional line)
 			)
 			(pin bidirectional line
-				(at 17.78 -10.16 180)
+				(at 17.78 -17.78 180)
 				(length 2.54)
 				(name "VSS/PF6"
 					(effects
@@ -11160,7 +11160,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 17.78 -12.7 180)
+				(at 17.78 -15.24 180)
 				(length 2.54)
 				(name "VDD/PF5"
 					(effects
