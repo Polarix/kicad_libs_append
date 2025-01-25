@@ -1,0 +1,140 @@
+(footprint "PAD_Semicircular_1mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1mm半圆形焊盘")
+	(tags "焊盘 Pad")
+	(property "Reference" "REF**"
+		(at 0 -1.25 0)
+		(layer "F.SilkS")
+		(uuid "ca3d670b-0804-4755-8a00-4db046a6cf5e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "PAD_1mm"
+		(at 0 -0.75 0)
+		(layer "F.Fab")
+		(uuid "2d54a88f-a3cc-4d67-baae-af5dfbce17a7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a47da19-09f3-455c-8879-1d697581e9f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d9525e0-96f9-43b2-972b-ef34de17ae1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "1mm半圆形焊盘"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05e71b92-687d-4a15-95ae-46e6ca277fa0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 0.25)
+		(end -0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "41a05ebd-68c4-4224-8e61-0b07d0fc14a3")
+	)
+	(fp_line
+		(start -0.5 0.25)
+		(end 0.5 0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "c036c9fb-0568-4bf7-9829-717023e39fdc")
+	)
+	(fp_line
+		(start -0.25 -0.25)
+		(end 0.25 -0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "765aa0c1-ad90-4f6d-b4b4-64dbf99ce05d")
+	)
+	(fp_line
+		(start 0.5 0.25)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "b92cf36a-429e-499e-ab87-e9e49d9e7c8f")
+	)
+	(fp_arc
+		(start -0.5 0)
+		(mid -0.426777 -0.176777)
+		(end -0.25 -0.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "110cf0d2-d1df-490d-8290-26e38d2968c6")
+	)
+	(fp_arc
+		(start 0.25 -0.25)
+		(mid 0.426777 -0.176777)
+		(end 0.5 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0c1c1e1-4a43-4db5-8938-9cd92b6314f1")
+	)
+	(pad "1" smd roundrect
+		(at 0 0 180)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.5)
+		(chamfer_ratio 0)
+		(chamfer top_left top_right)
+		(uuid "cc8cf112-4ba9-445f-8300-9c111261659e")
+	)
+)
