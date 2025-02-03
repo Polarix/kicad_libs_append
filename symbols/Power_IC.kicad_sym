@@ -9439,8 +9439,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "Q"
-			(at 4.064 9.906 0)
+		(property "Reference" "U"
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9449,7 +9449,7 @@
 			)
 		)
 		(property "Value" "MX5052"
-			(at 3.81 7.366 0)
+			(at 0 6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
