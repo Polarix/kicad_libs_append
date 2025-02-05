@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "3针PH2.0mm插座")
+	(descr "3针直针PH2.0mm插座")
 	(property "Reference" "REF**"
 		(at -5.5 -4 0)
 		(layer "F.SilkS")
@@ -119,7 +119,7 @@
 		(start 2 1.2)
 		(end 3.4 1.2)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -145,6 +145,17 @@
 		(fill none)
 		(layer "F.SilkS")
 		(uuid "45ebfb04-4d72-4351-93c7-439070c704dd")
+	)
+	(fp_rect
+		(start -4 -3)
+		(end 4 1.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "37a15562-eba7-4645-8701-e248f42a6286")
 	)
 	(pad "1" thru_hole circle
 		(at -2 0)
