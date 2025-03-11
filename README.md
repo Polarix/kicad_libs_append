@@ -11,7 +11,7 @@
 符号库中包含以下类目和内容：
 
 |名称|描述|
-| -|-|
+|-|-|
 |Antenna|天线|
 |Button_Switch|按钮、开关、摇杆、编码器等|
 |Connector|端子、连接器|
@@ -43,6 +43,7 @@
 |connector|端子、连接器|
 |deprecated|将被弃用或移动到其他库的封装|
 |general|普通元件或未分类元件|
+|handles_joysticks_potentiometer|手柄、摇杆和电位器|
 |modules|模块|
 |pin_pad_jumper|独立点、焊盘、螺柱、跳线等|
 |screens|屏幕|
