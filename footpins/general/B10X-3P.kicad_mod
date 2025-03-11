@@ -253,15 +253,15 @@
 		(remove_unused_layers no)
 		(uuid "6ef8207b-408c-4f8c-9a95-3de209f5bf73")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
+	(model "${KICAD_USER_3D_MODEL}/3d_model/B103_Potentiometer-3P.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 5.15 -7.7 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )

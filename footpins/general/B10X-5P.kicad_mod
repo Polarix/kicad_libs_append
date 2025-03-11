@@ -289,15 +289,4 @@
 		(remove_unused_layers no)
 		(uuid "6ef8207b-408c-4f8c-9a95-3de209f5bf73")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
