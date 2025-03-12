@@ -1,7 +1,7 @@
 (footprint "PSP_Joystick_THT"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "PSP Rocker Joystick")
 	(property "Reference" "REF**"
@@ -28,23 +28,11 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "a2297e22-0130-4aa9-9ab6-89884a591b48")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "00000000-0000-0000-0000-000000000000")
+		(uuid "a85f155e-1426-4985-9a0f-db66a582143c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -486,14 +474,14 @@
 		(uuid "a2046747-7fe5-45b0-bef5-43b924b942e3")
 	)
 	(pad "" np_thru_hole circle
-		(at 0 -6 90)
+		(at -6 0 90)
 		(size 2.1 2.1)
 		(drill 2.1)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "2799a415-facd-466e-9cd2-da6a31874349")
 	)
 	(pad "" np_thru_hole circle
-		(at 0 6 90)
+		(at 6 0 90)
 		(size 2.1 2.1)
 		(drill 2.1)
 		(layers "F&B.Cu" "*.Mask")
@@ -547,4 +535,5 @@
 		(remove_unused_layers no)
 		(uuid "8044fb66-640f-4b6f-9b8b-ae61d823a5bf")
 	)
+	(embedded_fonts no)
 )
