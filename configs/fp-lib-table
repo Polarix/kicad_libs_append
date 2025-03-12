@@ -11,5 +11,4 @@
   (lib (name "Append_Board")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/board")(options "")(descr ""))
   (lib (name "Append_Special")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/special")(options "")(descr ""))
   (lib (name "Append_Deprecated")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/deprecated")(options "")(descr ""))
-  (lib (name "Append_Handle_Joystick_Potentiometer")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/handles_joysticks_potentiometer")(options "")(descr ""))
 )
