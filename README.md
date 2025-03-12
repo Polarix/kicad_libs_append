@@ -39,11 +39,10 @@
 |名称|描述|
 | -|-|
 |antenna|天线|
-|button_switch|按钮、开关、摇杆、编码器等|
+|button_switch|按钮、开关、摇杆、编码器、手柄、摇杆和电位器等|
 |connector|端子、连接器|
 |deprecated|将被弃用或移动到其他库的封装|
 |general|普通元件或未分类元件|
-|handles_joysticks_potentiometer|手柄、摇杆和电位器|
 |modules|模块|
 |pin_pad_jumper|独立点、焊盘、螺柱、跳线等|
 |screens|屏幕|
