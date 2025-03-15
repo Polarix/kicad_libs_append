@@ -1,9 +1,9 @@
-(footprint "XKB-8080"
+(footprint "XKB-5858"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "7mm六脚自锁开关")
+	(descr "5.8mm六脚自锁开关")
 	(tags "Push Switch 自锁开关")
 	(property "Reference" "REF**"
 		(at -4.572 -5.588 0)
@@ -17,7 +17,7 @@
 			(justify left)
 		)
 	)
-	(property "Value" "XKB-8080"
+	(property "Value" "XKB-5858"
 		(at 0 -5.588 0)
 		(layer "F.Fab")
 		(uuid "797ad399-fb7a-4974-9578-213442a93a1f")
@@ -29,7 +29,7 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" "XKB-7070"
+	(property "Footprint" "XKB-5858"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -55,7 +55,7 @@
 			)
 		)
 	)
-	(property "Description" "7mm六脚自锁开关"
+	(property "Description" "5.8mm六脚自锁开关"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -70,58 +70,38 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -2.025 2.5)
-		(end -1.25 2.5)
+		(start -2.25 -1.125)
+		(end -2.25 -0.875)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "33fb0cdb-f3b1-47e4-bbef-f23f869ab5b7")
+		(uuid "f0869a9c-7a2e-4048-ba9e-5b5e9e6eb55c")
 	)
 	(fp_line
-		(start -1.25 2.5)
-		(end 0 1.25)
+		(start -1.5 0)
+		(end 1.5 0)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "a8380801-bcbf-4c36-bd29-0a9616dc1e25")
+		(uuid "f591d067-1a3c-4276-8a8d-c3f875360cd4")
 	)
 	(fp_line
-		(start 0 -1.25)
-		(end 1.25 -2.5)
+		(start 2.25 -1.125)
+		(end 2.25 -0.875)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "421b8460-96c0-4ccd-b502-3f6e232eb707")
-	)
-	(fp_line
-		(start 0 1.25)
-		(end 0 -1.25)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "16d9f717-0b60-48a7-8775-1388ea414096")
-	)
-	(fp_line
-		(start 1.25 -2.5)
-		(end 2.025 -2.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "cbd707cc-9e5c-414c-aff7-6fd47cbad7f0")
+		(uuid "75899356-e5cf-4b39-8273-1f36cbdeee7b")
 	)
 	(fp_rect
-		(start -4 -4)
-		(end 4 4)
+		(start -2.9 -2.9)
+		(end 2.9 2.9)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -130,31 +110,9 @@
 		(layer "F.SilkS")
 		(uuid "9fc9ba3f-fafd-4ec5-b810-01495c99fc9f")
 	)
-	(fp_circle
-		(center -2.9 2.5)
-		(end -2.025 2.5)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "9dcef2ba-8f5b-4811-80ff-b22c698d0783")
-	)
-	(fp_circle
-		(center 2.9 -2.5)
-		(end 2.9 -1.625)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "f18408c3-0b13-4d7a-9d5a-574b8fc9fa8b")
-	)
 	(fp_rect
-		(start -4.1 -4.1)
-		(end 4.1 4.1)
+		(start -3 -3)
+		(end 3 3)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -164,8 +122,8 @@
 		(uuid "98332c55-a18a-4411-9b61-1fda5f2c3d87")
 	)
 	(fp_rect
-		(start -4.1 -4.1)
-		(end 4.1 4.1)
+		(start -3 -3)
+		(end 3 3)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -175,15 +133,15 @@
 		(uuid "60a2b3b7-beef-4c20-99f6-d269a14e54d2")
 	)
 	(pad "1" thru_hole oval
-		(at 2.9 2.5)
+		(at 2.25 -2)
 		(size 1.2 1.5)
 		(drill oval 0.6 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "24865460-1e85-4c47-a7e3-bb10b3c1fa5e")
+		(uuid "5150934a-26af-49e0-8b4e-b61d7f2eb935")
 	)
 	(pad "2" thru_hole oval
-		(at 2.9 0)
+		(at 2.25 0)
 		(size 1.2 1.5)
 		(drill oval 0.6 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -191,15 +149,15 @@
 		(uuid "ec757e41-9112-4773-80bb-3ad613ac7c07")
 	)
 	(pad "3" thru_hole oval
-		(at 2.9 -2.5)
+		(at 2.25 2)
 		(size 1.2 1.5)
 		(drill oval 0.6 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5150934a-26af-49e0-8b4e-b61d7f2eb935")
+		(uuid "24865460-1e85-4c47-a7e3-bb10b3c1fa5e")
 	)
 	(pad "4" thru_hole oval
-		(at -2.9 -2.5)
+		(at -2.25 -2)
 		(size 1.2 1.5)
 		(drill oval 0.6 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -207,7 +165,7 @@
 		(uuid "9a371df2-e129-41a2-a3b9-8b3756d89187")
 	)
 	(pad "5" thru_hole oval
-		(at -2.9 0)
+		(at -2.25 0)
 		(size 1.2 1.5)
 		(drill oval 0.6 0.9)
 		(layers "*.Cu" "*.Mask")
@@ -215,14 +173,14 @@
 		(uuid "854aceaf-679d-4f8f-a909-6b77b5655a3d")
 	)
 	(pad "6" thru_hole oval
-		(at -2.9 2.5)
+		(at -2.25 2)
 		(size 1.2 1.5)
 		(drill oval 0.6 0.9)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "919bcbfc-021a-470c-9645-2e8489f1084b")
 	)
-	(model "${APPEND_LIB_PATH}/3d_model/XKB-8080-Z.stp"
+	(model "${APPEND_LIB_PATH}/3d_model/XKB-5858-Z.stp"
 		(offset
 			(xyz 0 0 0)
 		)
