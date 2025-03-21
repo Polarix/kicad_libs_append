@@ -1,0 +1,189 @@
+(footprint "MX3.0mm_2×2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "空中接线端子")
+	(tags "Molex 43045 MX 3.0 带锁 Lock")
+	(property "Reference" "REF**"
+		(at -4.7 -0.125 0)
+		(layer "F.SilkS")
+		(uuid "84febc35-87fd-4cad-8e04-2b66390cfc12")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MX3.0mm_2×2P"
+		(at -4.7 -1 0)
+		(layer "F.Fab")
+		(uuid "494d4ce3-60c4-4021-8bd1-ab41a12b14ed")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1265518e-06df-481e-acb3-661928ee8d95")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "MX2.54 带锁杜邦插座"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84b784b0-cf1f-47e1-ba9a-a98b747b705a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -10.25)
+		(end -5 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d6a83ee-b39d-480d-9568-6e909628ec27")
+	)
+	(fp_line
+		(start -5 -10.25)
+		(end 5 -10.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "117b8cf8-9cfc-4fcf-807b-fcc5fb20a42c")
+	)
+	(fp_line
+		(start -2.5 -0.25)
+		(end -5 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "73b08644-febb-4c1e-9b8f-826cf4cd7348")
+	)
+	(fp_line
+		(start -2.5 1.25)
+		(end -2.5 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9c8eae28-a7c3-4e6a-bd81-98cf70031070")
+	)
+	(fp_line
+		(start 2.5 -0.25)
+		(end 2.5 1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6fe3653d-0c70-4c24-9b09-50a757a60c08")
+	)
+	(fp_line
+		(start 5 -0.25)
+		(end 2.5 -0.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37c732a1-cf44-4113-843f-85a5910958ec")
+	)
+	(fp_line
+		(start 5 -0.25)
+		(end 5 -10.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a83a46a9-63ee-4d26-bfce-0ba963092218")
+	)
+	(fp_rect
+		(start -5.125 -10.375)
+		(end 5.125 2.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "78cb1af7-2099-4ec7-a793-611c3c7d67e8")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -5.82)
+		(size 3.5 3.5)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "c1c757f9-ea6e-4c2e-91a2-929a181f0b57")
+	)
+	(pad "1" thru_hole circle
+		(at -1.5 -1.5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "414f80f7-b2d5-43c3-a018-819efe44fe30")
+	)
+	(pad "2" thru_hole circle
+		(at 1.5 -1.5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a419542a-0c78-421e-9ac7-81d3afba6186")
+	)
+	(pad "3" thru_hole circle
+		(at -1.5 1.5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c480dba7-51ff-4a4f-9251-e48b2784c64a")
+	)
+	(pad "4" thru_hole circle
+		(at 1.5 1.5)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bc1d5740-b0c7-4566-95b0-470ac47a1fb3")
+	)
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/Molex-43045_MX3.0_2×2P.stp"
+		(offset
+			(xyz 0 5.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 180)
+		)
+	)
+)
