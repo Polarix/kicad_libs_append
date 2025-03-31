@@ -1,0 +1,6 @@
+(design_block_lib_table
+  (version 7)
+  (lib (name "Motor Driver")(type "KiCad")(uri "${APPEND_LIB_PATH}/blocks/motor_driver")(options "")(descr "电机驱动电路图块"))
+  (lib (name "Power")(type "KiCad")(uri "${APPEND_LIB_PATH}/blocks/power")(options "")(descr "电源图块"))
+  (lib (name "Interface")(type "KiCad")(uri "${APPEND_LIB_PATH}/blocks/interface")(options "")(descr "接口图块"))
+)
