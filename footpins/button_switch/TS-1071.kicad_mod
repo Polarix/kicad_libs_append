@@ -1,7 +1,7 @@
 (footprint "TS-1071"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "https://katalog.we-online.com/em/datasheet/434133025816.pdf")
 	(tags "tactile switch Wurth Wuerth")
@@ -23,18 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "b8011370-7c99-4d2e-af18-cb711c3ced70")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -131,7 +119,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "d0064f4c-eaa8-4fc1-8c95-5edfe18ce9e5")
 	)
@@ -142,7 +130,7 @@
 			(width 0.12)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Dwgs.User")
 		(uuid "d7d97f8c-4994-4f13-ac46-daeb78769313")
 	)
@@ -200,16 +188,17 @@
 	(pad "1" smd rect
 		(at -2.2 0)
 		(size 1.4 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fe41dd62-d2d9-401c-b4f5-37f7fe1c0693")
 	)
 	(pad "2" smd rect
 		(at 2.2 0)
 		(size 1.4 1.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "4011b300-ebeb-4301-a683-5c483a23fcbe")
 	)
-	(model "${KISYS3DMOD}/Button_Switch_SMD.3dshapes/SW_Push_1P1T_NO_Vertical_Wuerth_434133025816.wrl"
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/TS-1185_SMD_Button.stp"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -217,7 +206,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

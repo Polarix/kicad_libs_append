@@ -1,7 +1,7 @@
 (footprint "TS-1073B"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Push button")
 	(tags "switch push button")
@@ -23,19 +23,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "361eadc6-82e8-4aaf-a1a1-96000c2f368e")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -261,7 +248,7 @@
 	(pad "" smd rect
 		(at -2.4 -0.6)
 		(size 1 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "01eb7674-2d56-4407-b937-5ab72b3915b8")
 	)
 	(pad "" np_thru_hole circle
@@ -281,19 +268,31 @@
 	(pad "" smd rect
 		(at 2.4 -0.6)
 		(size 1 1.2)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "14fe2c8d-f5b9-4b69-8a3c-321f3c235b70")
 	)
 	(pad "1" smd rect
 		(at -1.725 1.4)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "19e2f0f0-d981-4127-b697-35cc7bf63e71")
 	)
 	(pad "2" smd rect
 		(at 1.725 1.4)
 		(size 0.9 0.8)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "f853928b-962e-49cd-8364-720211ca3cb1")
+	)
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/TS-1010-XA_SMD_Button.stp"
+		(offset
+			(xyz 0 -1.3 1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -180)
+		)
 	)
 )
