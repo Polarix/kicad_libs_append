@@ -4396,19 +4396,7 @@
 		(symbol "DW05DLC_0_1"
 			(polyline
 				(pts
-					(xy 0 -1.27) (xy 0 1.27)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.27 1.27) (xy -1.27 1.27)
+					(xy -1.27 1.27) (xy 1.27 1.27) (xy 0 0) (xy -1.27 1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -4420,7 +4408,19 @@
 			)
 			(polyline
 				(pts
-					(xy 1.27 -1.27) (xy -1.27 -1.27) (xy 0 1.27) (xy 1.27 -1.27)
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -1.27) (xy -1.27 -1.27) (xy 0 0) (xy 1.27 -1.27)
 				)
 				(stroke
 					(width 0.254)
@@ -4435,10 +4435,10 @@
 			(pin passive line
 				(at 0 3.81 270)
 				(length 2.54)
-				(name "K"
+				(name "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
@@ -4453,10 +4453,10 @@
 			(pin passive line
 				(at 0 -3.81 90)
 				(length 2.54)
-				(name "A"
+				(name "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 0 0)
 						)
 					)
 				)
