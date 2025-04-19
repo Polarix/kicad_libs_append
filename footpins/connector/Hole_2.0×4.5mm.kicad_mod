@@ -1,0 +1,75 @@
+(footprint "Hole_2.0×4.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.05 -3.75 0)
+		(layer "F.SilkS")
+		(uuid "ca3d670b-0804-4755-8a00-4db046a6cf5e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Hole"
+		(at 0 -3 0)
+		(layer "F.Fab")
+		(uuid "2d54a88f-a3cc-4d67-baae-af5dfbce17a7")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d9525e0-96f9-43b2-972b-ef34de17ae1f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "2mm螺丝孔，外盘4.5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05e71b92-687d-4a15-95ae-46e6ca277fa0")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ecbe8dc8-c4b0-4281-a38b-9ef5b64b1852")
+	)
+	(pad "MP" thru_hole circle
+		(at 0 0)
+		(size 4.5 4.5)
+		(drill 2.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cc8cf112-4ba9-445f-8300-9c111261659e")
+	)
+	(embedded_fonts no)
+)
