@@ -6,7 +6,7 @@
 
 ## 托管
 
-此项目目前在一下仓库中托管，同步更新。
+此项目目前在以下仓库中托管，同步更新。
 
  - Github: [Polarix/kicad_libs_append](https://github.com/Polarix/kicad_libs_append)
  - Gitee: [Polarix/kicad_libs_append](https://gitee.com/Polarix/kicad_libs_append)
