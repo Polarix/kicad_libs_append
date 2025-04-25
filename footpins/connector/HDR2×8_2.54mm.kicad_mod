@@ -1,7 +1,7 @@
 (footprint "HDR2×8_2.54mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0.762 -4.572 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" "HDR2×10_2.54mm"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "cbbb7a5d-7ef5-4540-bc13-9d6cafe85c21")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -74,7 +62,7 @@
 	)
 	(fp_line
 		(start -1.27 -3.81)
-		(end 18.92 -3.81)
+		(end 19.05 -3.81)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -94,7 +82,7 @@
 	)
 	(fp_line
 		(start -1.27 1.27)
-		(end 18.92 1.27)
+		(end 19.05 1.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -113,8 +101,8 @@
 		(uuid "797ea455-e6d8-4cc3-9b72-964b1c723e3d")
 	)
 	(fp_line
-		(start 18.92 -3.81)
-		(end 18.92 -1.27)
+		(start 19.05 -3.81)
+		(end 19.05 -1.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -123,8 +111,8 @@
 		(uuid "9195aaca-8d77-44f5-b3fa-5ef8bb00d79f")
 	)
 	(fp_line
-		(start 18.92 -1.27)
-		(end 18.92 1.27)
+		(start 19.05 -1.27)
+		(end 19.05 1.27)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -134,12 +122,12 @@
 	)
 	(fp_rect
 		(start -1.143 -3.683)
-		(end 18.796 1.143)
+		(end 18.923 1.143)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "de83bcd5-ddb1-4417-bc1f-667bec9b8c81")
 	)
@@ -271,4 +259,5 @@
 		(remove_unused_layers no)
 		(uuid "41a248e7-8462-4b94-835b-f36433a73432")
 	)
+	(embedded_fonts no)
 )
