@@ -1,10 +1,24 @@
 # KiCAD 补充库
 
-此仓库是我个人在使用KiCAD过程中使用的、KiCAD自带库中未提供的符号和封装。这些封装是我从KiCAD 5版本开始积累的，有些封装可能现在最新的库中已经提供了，也可能是我当时没有找到而自己做的符号和封装。    
+此项目用于总结和归类我个人在使用KiCAD过程中用到的、KiCAD自带库中未提供的符号和封装。这些封装是我从KiCAD 5版本开始积累的，有些封装可能现在最新的库中已经提供了，也可能是我当时没有找到而自己做的符号和封装。    
 
 这个仓库中绝大部分的封装已经过制板测试，当然也有小部分封装做好了但是没有使用过，封装的命名和引脚排布规则尽量符合KiCAD自带库的风格标准，尽量做到不埋雷，但是个人精力有限，各人使用习惯也各有不同，使用时还请自行校验。    
 
-仓库中包含符号库、封装库和3D模型三部分，分别在symbols、footpins和3d_model三个文件夹中。
+## 托管
+
+此项目目前在一下仓库中托管，同步更新。
+
+ - Github: [Polarix/kicad_libs_append](https://github.com/Polarix/kicad_libs_append)
+ - Gitee: [Polarix/kicad_libs_append](https://gitee.com/Polarix/kicad_libs_append)
+ - GitCode: [Polarix/kicad_libs_append](https://gitcode.com/Polarix/kicad_libs_append)
+
+## 项目结构
+
+仓库中包含符号库、封装库和3D模型三部分，分别在symbols、footpins、3d_model和blocks四个文件夹中。
+symbols用于存放符号库。
+footpins用于存放封装库。
+3d_model用于存放器件的3D模型。
+blocks用于存访电路设计图块(需要KiCAD9.0及以上支持)。
 
 ## 符号库
 
