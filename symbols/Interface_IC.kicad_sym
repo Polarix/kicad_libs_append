@@ -9807,7 +9807,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "SiI9022"
+	(symbol "SiI9022ACNU"
 		(pin_names
 			(offset 1.016)
 		)
@@ -9868,7 +9868,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "SiI9022_1_0"
+		(symbol "SiI9022ACNU_1_0"
 			(pin input line
 				(at -27.94 -17.78 0)
 				(length 2.54)
@@ -10320,7 +10320,7 @@
 				)
 			)
 		)
-		(symbol "SiI9022_1_1"
+		(symbol "SiI9022ACNU_1_1"
 			(rectangle
 				(start -25.4 66.04)
 				(end 25.4 -66.04)
