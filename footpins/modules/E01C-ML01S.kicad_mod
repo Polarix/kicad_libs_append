@@ -1,0 +1,161 @@
+(footprint "E01C-ML01S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "USB WIFI 2.4 5.8")
+	(tags "2.4G RF Si24R1")
+	(property "Reference" "REF**"
+		(at 0 -10 0)
+		(layer "F.SilkS")
+		(uuid "240e5dac-6242-47a5-bbef-f76d11c715c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "E01C-ML01S"
+		(at 0 -8.5 0)
+		(layer "F.Fab")
+		(uuid "aa2ea573-3f20-43c1-aa99-1f9c6031a9aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f65b7f70-366f-415f-81a2-46bd402f2a8a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "亿佰特E01C-ML01SP2模块"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3b6f5b3-30da-4514-a02d-c74ebda37755")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -6.25 -19.25)
+		(end 6.25 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "eb65ee84-43c9-4e1f-bf20-603bfe999aee")
+	)
+	(fp_rect
+		(start -6 0)
+		(end 6 -19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "356b1899-8d4b-4272-bf68-43add076c609")
+	)
+	(pad "1" smd oval
+		(at -4.445 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0cab9fec-ca69-4426-a62c-d6ae1a790a98")
+	)
+	(pad "2" smd oval
+		(at -3.175 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0e1ed1c5-7428-4dc7-b76e-49b2d5f8177d")
+	)
+	(pad "3" smd oval
+		(at -1.905 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "14c51520-6d91-4098-a59a-5121f2a898f7")
+	)
+	(pad "4" smd oval
+		(at -0.635 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2d67a417-188f-4014-9282-000265d80009")
+	)
+	(pad "5" smd oval
+		(at 0.635 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84e5506c-143e-495f-9aa4-d3a71622f213")
+	)
+	(pad "6" smd oval
+		(at 1.905 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "477311b9-8f81-40c8-9c55-fd87e287247a")
+	)
+	(pad "7" smd oval
+		(at 3.175 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "097edb1b-8998-4e70-b670-bba125982348")
+	)
+	(pad "8" smd oval
+		(at 4.445 -0.15)
+		(size 1 2)
+		(drill
+			(offset 0 -0.25)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "994b6220-4755-4d84-91b3-6122ac1c2c5e")
+	)
+	(embedded_fonts no)
+	(model "${USER_LIB_PATH}/general.pretty/air724.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
