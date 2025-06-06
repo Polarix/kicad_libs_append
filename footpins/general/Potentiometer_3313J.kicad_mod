@@ -1,0 +1,344 @@
+(footprint "Potentiometer_3313J"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3313J精密电位器")
+	(tags "Potentiometer 电位器 可调电阻")
+	(property "Reference" "REF**"
+		(at 0 -2.95 180)
+		(layer "F.SilkS")
+		(uuid "7264a30f-c60f-4da3-8c5d-7e3c7d3bbd9e")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "POT"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(uuid "3d8bb25a-6736-4b6a-bf6e-9b0decf985e2")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+				(bold yes)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2bbfd63-227b-48eb-b8eb-b415f9a3bf68")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3313J精密电位器"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3155fd9d-4029-45aa-a540-f2e3b9c005fe")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 1.75)
+		(end -1.6 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5a8cb9d5-0dc5-4a70-8874-d5912b029791")
+	)
+	(fp_line
+		(start -1.6 1.75)
+		(end -0.9 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "295bb89a-b12e-412c-90b9-079d5fdcbda8")
+	)
+	(fp_line
+		(start 0.5 -1.75)
+		(end -0.5 -1.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "224018a7-5ea8-442d-af1a-9ca330e6902e")
+	)
+	(fp_line
+		(start 0.9 1.75)
+		(end 1.6 1.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e478984-35a3-4e76-9509-3f2075067826")
+	)
+	(fp_line
+		(start 1.6 1.75)
+		(end 1.6 -0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9ca893cb-be2c-4642-8e1e-c53194608ced")
+	)
+	(fp_line
+		(start -1.75 -2.3)
+		(end -0.55 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "35d7cbcf-2dfa-4795-b7d8-4d17183984c7")
+	)
+	(fp_line
+		(start -1.75 -0.55)
+		(end -1.75 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4c269c4-88d2-4dd5-93c4-c65657cb9003")
+	)
+	(fp_line
+		(start -1.7 -0.55)
+		(end -1.75 -0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5868e82f-cb45-4630-816b-33877e557f15")
+	)
+	(fp_line
+		(start -1.7 1.85)
+		(end -1.7 -0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "209f1d94-82a9-4f10-827f-12210bac91fd")
+	)
+	(fp_line
+		(start -0.85 1.85)
+		(end -1.7 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "de179fe8-4f71-482a-b2d2-8b9a84283f06")
+	)
+	(fp_line
+		(start -0.85 2.35)
+		(end -0.85 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "8bcea6db-07d4-4d4a-968d-b54037bdb8be")
+	)
+	(fp_line
+		(start -0.55 -2.3)
+		(end -0.55 -1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "13ba025b-847c-4288-b20f-7378fb624d0f")
+	)
+	(fp_line
+		(start -0.55 -1.85)
+		(end 0.55 -1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "38869f3c-3dba-40c8-95ef-e77db8c39fb4")
+	)
+	(fp_line
+		(start 0.55 -2.3)
+		(end 1.75 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc21b510-2361-4b36-b123-867d8c549d38")
+	)
+	(fp_line
+		(start 0.55 -1.85)
+		(end 0.55 -2.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "07fd62ff-ffe3-4c8e-942a-66d07b27afd5")
+	)
+	(fp_line
+		(start 0.85 1.85)
+		(end 0.85 2.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "73d7ea08-e1a9-469b-ba63-efb973b60281")
+	)
+	(fp_line
+		(start 0.85 2.35)
+		(end -0.85 2.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "44ab5c77-629c-4c04-a9c1-36627c92c895")
+	)
+	(fp_line
+		(start 1.7 -0.6)
+		(end 1.7 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "5cafb0ea-cfdc-4727-ac37-074e689df713")
+	)
+	(fp_line
+		(start 1.7 1.85)
+		(end 0.85 1.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "503250da-e6fc-4227-87f2-60d11cf94c77")
+	)
+	(fp_line
+		(start 1.75 -2.3)
+		(end 1.75 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "e376e3df-3efe-4498-9735-d09bd7cceb45")
+	)
+	(fp_line
+		(start 1.75 -0.6)
+		(end 1.7 -0.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "F.CrtYd")
+		(uuid "57851041-782e-4b81-ad26-15a1541ba079")
+	)
+	(fp_line
+		(start 0.3 -0.4)
+		(end -0.4 0.3)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77df561a-502d-4e27-80e7-98557bf57ced")
+	)
+	(fp_line
+		(start 0.4 -0.3)
+		(end -0.3 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c477f79-28c5-4ac8-ac79-adb5325b6928")
+	)
+	(fp_rect
+		(start -1.6 -1.75)
+		(end 1.6 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "15690dcb-8ef1-439c-8903-8a77e6abf16d")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "1c552e57-4719-4ac1-93f9-0424408e31c3")
+	)
+	(pad "1" smd roundrect
+		(at -1.15 -1.456 180)
+		(size 1.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "91191112-9659-439e-b1eb-5d666b86bc52")
+	)
+	(pad "2" smd roundrect
+		(at 0 1.45 180)
+		(size 1.6 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15625)
+		(uuid "211e05af-33f4-4c46-aad6-b7ef7f443384")
+	)
+	(pad "3" smd roundrect
+		(at 1.15 -1.45 180)
+		(size 1.1 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2272727273)
+		(uuid "093802aa-830e-4e9f-83c1-3aa80d89e39a")
+	)
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/Pot-3313J-1.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)
