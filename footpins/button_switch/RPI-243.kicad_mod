@@ -52,6 +52,26 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -1 -2.1)
+		(end -1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afd59366-2aed-427e-9a2a-088bb3942d88")
+	)
+	(fp_line
+		(start 1 -2.1)
+		(end 1 2.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6b6dbc5-0db4-4efa-9670-c22698a86ca5")
+	)
 	(fp_rect
 		(start -2.5 -2.1)
 		(end 2.5 2.1)
@@ -229,15 +249,15 @@
 		(uuid "c5e01807-2135-4c05-90aa-030bf7dd243d")
 	)
 	(embedded_fonts no)
-	(model "${APPEND_LIB_PATH}/3d_model/RPI-221.STEP"
+	(model "${APPEND_LIB_PATH}/3d_model/RPI-243.stp"
 		(offset
-			(xyz -2.5 1.25 0)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 -0 90)
+			(xyz -0 -0 -0)
 		)
 	)
 )
