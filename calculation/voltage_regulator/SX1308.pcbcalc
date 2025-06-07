@@ -1,0 +1,14 @@
+(datafile
+  (version 1)
+    (date "2025-01-13T22:09:56+0800")
+      (tool "pcb_calculator 8.0.7")
+        (regulators
+          (regulator "SX1308"
+            (reg_vref 0.6)
+            (reg_type normal)
+          )
+        )
+      )
+    )
+  )
+)

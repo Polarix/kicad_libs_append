@@ -1,0 +1,16 @@
+(datafile
+  (version 2)
+    (date "2025-03-15T16:27:52+0800")
+      (tool "pcb_calculator 9.0.0")
+        (regulators
+          (regulator "sx2106"
+            (reg_vref_min 0.805)
+            (reg_vref_typ 0.805)
+            (reg_vref_max 0.805)
+            (reg_type normal)
+          )
+        )
+      )
+    )
+  )
+)
