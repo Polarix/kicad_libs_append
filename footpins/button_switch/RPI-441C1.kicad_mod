@@ -52,6 +52,16 @@
 		)
 	)
 	(attr through_hole)
+	(fp_line
+		(start -2.8 -1.5)
+		(end 2.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f5982483-ce5d-479b-b329-8f58fab2d6fd")
+	)
 	(fp_rect
 		(start -4 -2.1)
 		(end 4 2.1)
@@ -197,14 +207,6 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -3.35 1.25)
-		(size 0.8 1.1)
-		(drill oval 0.4 0.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "89926009-18af-43e8-b6fe-a00dee4a514c")
-	)
-	(pad "2" thru_hole oval
 		(at -3.35 -1.25)
 		(size 0.8 1.1)
 		(drill oval 0.4 0.7)
@@ -212,21 +214,29 @@
 		(remove_unused_layers no)
 		(uuid "6b33f3cb-3630-408f-bba4-7dc2bac49a2a")
 	)
-	(pad "3" thru_hole oval
-		(at 3.35 -1.25)
+	(pad "2" thru_hole oval
+		(at -3.35 1.25)
 		(size 0.8 1.1)
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "60ed2a91-ce83-41f1-9164-10df68163c1e")
+		(uuid "89926009-18af-43e8-b6fe-a00dee4a514c")
 	)
-	(pad "4" thru_hole oval
+	(pad "3" thru_hole oval
 		(at 3.35 1.25)
 		(size 0.8 1.1)
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "c5e01807-2135-4c05-90aa-030bf7dd243d")
+	)
+	(pad "4" thru_hole oval
+		(at 3.35 -1.25)
+		(size 0.8 1.1)
+		(drill oval 0.4 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60ed2a91-ce83-41f1-9164-10df68163c1e")
 	)
 	(embedded_fonts no)
 	(model "${APPEND_LIB_PATH}/3d_model/RPI-441C1.stp"
