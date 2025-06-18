@@ -10627,7 +10627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5MHz, 1A, High Efficiency PWM Step-Down DC/DC Converter"
+		(property "Description" "1.4MHz, 1A, High Efficiency PWM Step-Down DC/DC Converter"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10636,7 +10636,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "PWM DC-DC DC"
+		(property "ki_keywords" "PWM DC-DC DC Buck"
 			(at 0 0 0)
 			(effects
 				(font
@@ -10658,6 +10658,26 @@
 				)
 			)
 		)
+		(symbol "RT8059_1_0"
+			(pin output line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "BS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
 		(symbol "RT8059_1_1"
 			(pin power_in line
 				(at -7.62 2.54 0)
@@ -10665,14 +10685,14 @@
 				(name "VIN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "4"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -10683,14 +10703,14 @@
 				(name "EN"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "1"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -10701,14 +10721,14 @@
 				(name "GND"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "2"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -10719,14 +10739,14 @@
 				(name "LX"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "3"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
@@ -10737,14 +10757,14 @@
 				(name "FB"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
 				(number "5"
 					(effects
 						(font
-							(size 1.27 1.27)
+							(size 1.016 1.016)
 						)
 					)
 				)
