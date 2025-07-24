@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "0.78寸OLED屏幕，SH1107或SSD1317驱动")
+	(descr "0.78寸OLED屏幕封装，SH1107或SSD1317驱动，焊盘和屏幕本体在电路板同一面。")
 	(tags "OLED 12880 MONO")
 	(property "Reference" "REF***"
 		(at 13.5 -7 180)
@@ -75,6 +75,17 @@
 		(fill no)
 		(layer "F.SilkS")
 		(uuid "d3d4754d-3e5c-4c43-971b-3a13b4b8b8eb")
+	)
+	(fp_circle
+		(center 3.5 5.25)
+		(end 3.5 5.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ef71119b-51c7-43fc-8864-eab4cfd95bee")
 	)
 	(fp_line
 		(start 1.42 -6.065)
