@@ -54,17 +54,6 @@
 		)
 	)
 	(attr through_hole)
-	(fp_circle
-		(center 0 5.25)
-		(end 0 5.4)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "f9fedaea-26cc-4f43-99a1-923c0a8e60ea")
-	)
 	(fp_line
 		(start -1 -6)
 		(end -1 -4.6)
@@ -72,7 +61,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "fecdd949-d50d-442b-af1a-db60aaf1b56b")
 	)
 	(fp_line
@@ -82,7 +71,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "17cf4080-5c60-4810-a540-b31a1060e9fd")
 	)
 	(fp_line
@@ -92,7 +81,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "066379d3-13a0-4967-9317-5e921bf36ee6")
 	)
 	(fp_line
@@ -102,7 +91,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "360e410c-4fed-4871-b1f5-296cd01ce96f")
 	)
 	(fp_line
@@ -112,7 +101,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "224eed7c-6a66-4951-8cb7-0bd9bdb912ca")
 	)
 	(fp_line
@@ -122,7 +111,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "40d7203c-bc42-480e-b8c9-290d518bccf6")
 	)
 	(fp_arc
@@ -133,7 +122,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "5734ed0e-5322-4eb2-aecb-04a5cafc8f87")
 	)
 	(fp_arc
@@ -144,7 +133,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "26951fce-a7e0-493a-95e5-2991a4cca69c")
 	)
 	(fp_arc
@@ -155,7 +144,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "880ab2ff-c0b6-47a9-8a3e-56b6454944e2")
 	)
 	(fp_arc
@@ -166,8 +155,19 @@
 			(width 0.1)
 			(type default)
 		)
-		(layer "B.SilkS")
+		(layer "F.SilkS")
 		(uuid "3bfe52cd-170a-4588-8637-2d04f1811c08")
+	)
+	(fp_circle
+		(center 0 5.25)
+		(end 0 5.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f9fedaea-26cc-4f43-99a1-923c0a8e60ea")
 	)
 	(fp_rect
 		(start -2 -6.3)
