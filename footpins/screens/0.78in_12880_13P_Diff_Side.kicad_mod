@@ -281,7 +281,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
+		(layer "F.CrtYd")
 		(uuid "2f5a8adb-c9e0-46ab-b95d-b70b7b1c0cb8")
 	)
 	(fp_line

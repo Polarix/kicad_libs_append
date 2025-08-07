@@ -177,7 +177,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "Edge.Cuts")
+		(layer "F.CrtYd")
 		(uuid "cbaedfda-5830-47f6-8cd6-5a11f3f11f9b")
 	)
 	(pad "1" smd rect
