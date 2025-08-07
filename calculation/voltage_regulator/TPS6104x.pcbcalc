@@ -1,0 +1,22 @@
+(datafile
+  (version 2)
+    (date "2025-08-07T16:53:38+0800")
+      (tool "pcb_calculator 9.0.3")
+        (regulators
+          (regulator "RY8310"
+            (reg_vref_min 0.8)
+            (reg_vref_typ 0.8)
+            (reg_vref_max 0.8)
+            (reg_type normal)
+          )
+          (regulator "TPS61040"
+            (reg_vref_min 1.23)
+            (reg_vref_typ 1.23)
+            (reg_vref_max 1.23)
+            (reg_type normal)
+          )
+        )
+      )
+    )
+  )
+)
