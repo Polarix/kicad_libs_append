@@ -437,7 +437,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 24.13 0)
+			(at 7.62 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -446,7 +446,7 @@
 			)
 		)
 		(property "Value" "ATD5984"
-			(at 7.62 21.59 0)
+			(at 7.62 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -492,8 +492,8 @@
 		)
 		(symbol "ATD5984_0_1"
 			(rectangle
-				(start -12.7 20.32)
-				(end 12.7 -20.32)
+				(start -12.7 22.86)
+				(end 12.7 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -505,7 +505,7 @@
 		)
 		(symbol "ATD5984_1_0"
 			(pin input line
-				(at -15.24 12.7 0)
+				(at -15.24 15.24 0)
 				(length 2.54)
 				(name "~{RESET}"
 					(effects
@@ -523,25 +523,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 10.16 0)
-				(length 2.54)
-				(name "ROSC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -15.24 7.62 0)
+				(at -15.24 12.7 0)
 				(length 2.54)
 				(name "~{SLEEP}"
 					(effects
@@ -559,7 +541,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 5.08 0)
+				(at -15.24 10.16 0)
 				(length 2.54)
 				(name "STEP"
 					(effects
@@ -577,7 +559,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 2.54 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "DIR"
 					(effects
@@ -595,7 +577,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -5.08 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "MS2"
 					(effects
@@ -613,7 +595,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -7.62 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "MS3"
 					(effects
@@ -623,6 +605,24 @@
 					)
 				)
 				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -15.24 -7.62 0)
+				(length 2.54)
+				(name "ROSC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -649,7 +649,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -22.86 90)
+				(at 0 -25.4 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -668,7 +668,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -22.86 90)
+				(at 0 -25.4 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -687,7 +687,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 15.24 180)
+				(at 15.24 17.78 180)
 				(length 2.54)
 				(name "VBB1"
 					(effects
@@ -705,7 +705,7 @@
 				)
 			)
 			(pin power_out line
-				(at 15.24 12.7 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "OUT1A"
 					(effects
@@ -723,7 +723,7 @@
 				)
 			)
 			(pin power_out line
-				(at 15.24 10.16 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "OUT1B"
 					(effects
@@ -741,7 +741,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 7.62 180)
+				(at 15.24 10.16 180)
 				(length 2.54)
 				(name "SENSE1"
 					(effects
@@ -759,7 +759,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 2.54 180)
+				(at 15.24 5.08 180)
 				(length 2.54)
 				(name "VBB2"
 					(effects
@@ -777,7 +777,7 @@
 				)
 			)
 			(pin power_out line
-				(at 15.24 0 180)
+				(at 15.24 2.54 180)
 				(length 2.54)
 				(name "OUT2A"
 					(effects
@@ -795,7 +795,7 @@
 				)
 			)
 			(pin input line
-				(at 15.24 -5.08 180)
+				(at 15.24 -2.54 180)
 				(length 2.54)
 				(name "SENSE2"
 					(effects
@@ -814,26 +814,8 @@
 			)
 		)
 		(symbol "ATD5984_1_1"
-			(pin output line
-				(at -15.494 -15.24 0)
-				(length 2.54)
-				(name "nFAULT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 			(pin input line
-				(at -15.24 15.24 0)
+				(at -15.24 17.78 0)
 				(length 2.54)
 				(name "~{ENABLE}"
 					(effects
@@ -851,7 +833,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -2.54 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "MS1"
 					(effects
@@ -868,8 +850,26 @@
 					)
 				)
 			)
+			(pin output line
+				(at -15.24 -17.78 0)
+				(length 2.54)
+				(name "nFAULT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -22.86 90)
+				(at 0 -25.4 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -887,7 +887,7 @@
 				)
 			)
 			(pin power_out line
-				(at 15.24 -2.54 180)
+				(at 15.24 0 180)
 				(length 2.54)
 				(name "OUT2B"
 					(effects
@@ -941,7 +941,7 @@
 				)
 			)
 			(pin power_in line
-				(at 15.24 -15.24 180)
+				(at 15.24 -17.78 180)
 				(length 2.54)
 				(name "VCP"
 					(effects
