@@ -10796,26 +10796,6 @@
 				)
 			)
 		)
-		(symbol "RT8059_1_0"
-			(pin output line
-				(at 0 7.62 270)
-				(length 2.54)
-				(name "BS"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-		)
 		(symbol "RT8059_1_1"
 			(pin power_in line
 				(at -7.62 2.54 0)
