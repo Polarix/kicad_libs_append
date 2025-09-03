@@ -9,18 +9,6 @@
             (reg_vref_max 0.612)
             (reg_type normal)
           )
-          (regulator "RY8310"
-            (reg_vref_min 0.8)
-            (reg_vref_typ 0.8)
-            (reg_vref_max 0.8)
-            (reg_type normal)
-          )
-          (regulator "TPS61040"
-            (reg_vref_min 1.23)
-            (reg_vref_typ 1.23)
-            (reg_vref_max 1.23)
-            (reg_type normal)
-          )
         )
       )
     )
