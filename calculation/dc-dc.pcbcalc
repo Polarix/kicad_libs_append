@@ -1,0 +1,44 @@
+(datafile
+  (version 2)
+    (date "2025-11-07T14:13:22+0800")
+      (tool "pcb_calculator 9.0.5")
+        (regulators
+          (regulator "MP4420"
+            (reg_vref_min 0.792)
+            (reg_vref_typ 0.8)
+            (reg_vref_max 0.8)
+            (reg_type normal)
+          )
+          (regulator "RT8059"
+            (reg_vref_min 0.588)
+            (reg_vref_typ 0.6)
+            (reg_vref_max 0.612)
+            (reg_type normal)
+          )
+          (regulator "RY8310"
+            (reg_vref_min 0.8)
+            (reg_vref_typ 0.8)
+            (reg_vref_max 0.8)
+            (reg_type normal)
+          )
+          (regulator "SX1308"
+            (reg_vref 0.6)
+            (reg_type normal)
+          )
+          (regulator "sx2106"
+            (reg_vref_min 0.805)
+            (reg_vref_typ 0.805)
+            (reg_vref_max 0.805)
+            (reg_type normal)
+          )
+          (regulator "TPS61040"
+            (reg_vref_min 1.23)
+            (reg_vref_typ 1.23)
+            (reg_vref_max 1.23)
+            (reg_type normal)
+          )
+        )
+      )
+    )
+  )
+)
