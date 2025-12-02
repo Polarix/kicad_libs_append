@@ -1,0 +1,289 @@
+(footprint "MSM261S3526Z0CM"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "用于磁场位置传感器，在芯片下挖圆孔以容纳直径2mm的径向磁铁")
+	(tags "SOIC SO AS5600 Magnet mounting holes 磁铁 磁编码")
+	(property "Reference" "REF**"
+		(at 0 -3.4 0)
+		(layer "F.SilkS")
+		(uuid "d9d20e64-43eb-4569-ab1a-142f4204338a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MSM261S3526Z0CM"
+		(at 0 3.4 0)
+		(layer "F.Fab")
+		(uuid "532984b4-960d-4e7e-8b7b-11d41533e0a6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b026259-1d55-48ce-9c68-449e33355f59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9308490-8255-4da5-b2b9-4cd0b2ba8b3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.475 -2.61)
+		(end 1.475 1.19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "370c9ee0-e66b-4414-aaf4-1823a9538073")
+	)
+	(fp_poly
+		(pts
+			(xy -2.7 -2.465) (xy -2.94 -2.795) (xy -2.46 -2.795) (xy -2.7 -2.465)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "81d884ae-a83d-4021-b5f8-121e3720e18c")
+	)
+	(fp_rect
+		(start -1.325 -2.46)
+		(end 1.325 1.04)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e180865f-718b-4d03-bd85-ff091a6dc6a9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "de5fefb8-0c5c-48f8-9190-2136506c208f")
+	)
+	(fp_rect
+		(start -1.525 -2.66)
+		(end 1.525 1.24)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "713110f7-b616-4eb1-9cbb-03841530c447")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4fc109fe-b77a-4734-aa76-ceb21126cd1b")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0.9 -2.074)
+		(size 0.6 0.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "471caf0d-224c-458a-92b7-fe880ed8ef6e")
+	)
+	(pad "2" smd roundrect
+		(at 0.9 -1.252)
+		(size 0.6 0.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cb604836-1c5f-4861-b866-7f59aa7b0edc")
+	)
+	(pad "3" smd custom
+		(at -0.71 0 45)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.42 -0.312499)
+						(mid -0.077302 -0.077302)
+						(end -0.312499 0.42)
+					)
+					(arc
+						(start -0.035 0.42)
+						(mid 0.117492 0.117492)
+						(end 0.42 -0.035)
+					)
+					(xy 0.42 -0.3125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "a5987810-8dc0-4ab3-8a4d-66c541732c95")
+	)
+	(pad "3" smd custom
+		(at 0 -0.71 45)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start 0.312499 0.42)
+						(mid 0.077302 -0.077302)
+						(end -0.42 -0.312499)
+					)
+					(arc
+						(start -0.42 -0.035)
+						(mid -0.117492 0.117492)
+						(end 0.035 0.42)
+					)
+					(xy 0.3125 0.42)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "1cb8d17a-8d25-4843-acd3-0b56ba400ec2")
+	)
+	(pad "3" smd custom
+		(at 0 0.71 45)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.312499 -0.42)
+						(mid -0.077302 0.077302)
+						(end 0.42 0.312499)
+					)
+					(arc
+						(start 0.42 0.035)
+						(mid 0.117492 -0.117492)
+						(end -0.035 -0.42)
+					)
+					(xy -0.3125 -0.42)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "0ed2c0af-2e0a-42ba-afa0-276961e6c7dc")
+	)
+	(pad "3" smd custom
+		(at 0.71 0 45)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(arc
+						(start -0.42 0.312499)
+						(mid 0.077302 0.077302)
+						(end 0.312499 -0.42)
+					)
+					(arc
+						(start 0.035 -0.42)
+						(mid -0.117492 -0.117492)
+						(end -0.42 0.035)
+					)
+					(xy -0.42 0.3125)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "dbbc7554-994f-43b5-b92a-cfb3ea49fee5")
+	)
+	(pad "4" smd roundrect
+		(at -0.9 -1.252)
+		(size 0.6 0.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "c50ac246-4852-4722-a84f-e3630c881fef")
+	)
+	(pad "5" smd roundrect
+		(at -0.9 -2.074)
+		(size 0.6 0.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "06f01c90-13ea-4f5e-aef8-3fd45b6300ac")
+	)
+	(pad "6" smd roundrect
+		(at 0 -2.074)
+		(size 0.6 0.522)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5345c5d7-cd00-46fa-9cc8-0b68274412c0")
+	)
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/MSM261S3526Z0CM.STEP"
+		(offset
+			(xyz 0 0.67 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
