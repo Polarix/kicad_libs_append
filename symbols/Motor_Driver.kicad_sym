@@ -1314,14 +1314,14 @@
 			(pin power_out line
 				(at 15.24 10.16 180)
 				(length 2.54)
-				(name "OUT1A"
+				(name "OUT1B"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "21"
+				(number "18"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1332,14 +1332,14 @@
 			(pin power_out line
 				(at 15.24 7.62 180)
 				(length 2.54)
-				(name "OUT1B"
+				(name "OUT1A"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "18"
+				(number "21"
 					(effects
 						(font
 							(size 1.27 1.27)
