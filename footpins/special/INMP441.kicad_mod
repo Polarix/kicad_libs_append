@@ -1,0 +1,260 @@
+(footprint "INMP441"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "用于磁场位置传感器，在芯片下挖圆孔以容纳直径2mm的径向磁铁")
+	(tags "SOIC SO AS5600 Magnet mounting holes 磁铁 磁编码")
+	(property "Reference" "REF**"
+		(at 0 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "d9d20e64-43eb-4569-ab1a-142f4204338a")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "INMP441"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "532984b4-960d-4e7e-8b7b-11d41533e0a6")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b026259-1d55-48ce-9c68-449e33355f59")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a9308490-8255-4da5-b2b9-4cd0b2ba8b3f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.91 -3.68)
+		(end 1.91 1.1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "370c9ee0-e66b-4414-aaf4-1823a9538073")
+	)
+	(fp_rect
+		(start -1.88 -3.65)
+		(end 1.88 1.07)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "e180865f-718b-4d03-bd85-ff091a6dc6a9")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.3 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "de5fefb8-0c5c-48f8-9190-2136506c208f")
+	)
+	(fp_rect
+		(start -1.94 -3.71)
+		(end 1.94 1.13)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "713110f7-b616-4eb1-9cbb-03841530c447")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4fc109fe-b77a-4734-aa76-ceb21126cd1b")
+		(effects
+			(font
+				(size 0.98 0.98)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.33 -3.16)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "c50ac246-4852-4722-a84f-e3630c881fef")
+	)
+	(pad "2" smd roundrect
+		(at -1.33 -2.106667)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "06f01c90-13ea-4f5e-aef8-3fd45b6300ac")
+	)
+	(pad "3" smd roundrect
+		(at -1.33 -1.053333)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cb604836-1c5f-4861-b866-7f59aa7b0edc")
+	)
+	(pad "4" smd roundrect
+		(at -1.33 0)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "471caf0d-224c-458a-92b7-fe880ed8ef6e")
+	)
+	(pad "5" smd custom
+		(at -0.65 -0.029011 270)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.08) (xy -0.098478 -0.087654) (xy -0.094142 -0.094142) (xy -0.087654 -0.098478) (xy -0.08 -0.1)
+					(xy 0.08 -0.1) (xy 0.087654 -0.098478) (xy 0.094142 -0.094142) (xy 0.098478 -0.087654) (xy 0.1 -0.08)
+					(xy 0.1 0.08) (xy 0.098478 0.087654) (xy 0.094142 0.094142) (xy 0.087654 0.098478) (xy 0.08 0.1)
+					(xy -0.08 0.1) (xy -0.087654 0.098478) (xy -0.094142 0.094142) (xy -0.098478 0.087654) (xy -0.1 0.08)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start -0.750989 -0.65)
+						(mid 0.029011 0.13)
+						(end 0.809011 -0.65)
+					)
+					(arc
+						(start 0.509011 -0.65)
+						(mid 0.029011 -0.17)
+						(end -0.450989 -0.65)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "fc5d5244-980c-4d25-8e65-43d6e38e3d19")
+	)
+	(pad "5" smd custom
+		(at 0.65 0.029011 90)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy -0.1 -0.08) (xy -0.098478 -0.087654) (xy -0.094142 -0.094142) (xy -0.087654 -0.098478) (xy -0.08 -0.1)
+					(xy 0.08 -0.1) (xy 0.087654 -0.098478) (xy 0.094142 -0.094142) (xy 0.098478 -0.087654) (xy 0.1 -0.08)
+					(xy 0.1 0.08) (xy 0.098478 0.087654) (xy 0.094142 0.094142) (xy 0.087654 0.098478) (xy 0.08 0.1)
+					(xy -0.08 0.1) (xy -0.087654 0.098478) (xy -0.094142 0.094142) (xy -0.098478 0.087654) (xy -0.1 0.08)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(arc
+						(start -0.750989 -0.65)
+						(mid 0.029011 0.13)
+						(end 0.809011 -0.65)
+					)
+					(arc
+						(start 0.509011 -0.65)
+						(mid 0.029011 -0.17)
+						(end -0.450989 -0.65)
+					)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "203ecfe2-1f93-4308-a869-8126a8433eea")
+	)
+	(pad "6" smd roundrect
+		(at 1.33 0)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "5345c5d7-cd00-46fa-9cc8-0b68274412c0")
+	)
+	(pad "7" smd roundrect
+		(at 1.33 -1.053333)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "41c7c3db-fdc7-4305-b8c4-047159ce36e4")
+	)
+	(pad "8" smd roundrect
+		(at 1.33 -2.106667)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "df1dc48b-aa9a-4f3d-94f0-25579398cb72")
+	)
+	(pad "9" smd roundrect
+		(at 1.33 -3.16)
+		(size 0.6 0.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "e1ce1971-5735-4a9b-95a8-aeba36557cdf")
+	)
+	(group ""
+		(uuid "b2e6bf43-6b78-4c20-bd1d-049ad06f2a77")
+		(members "203ecfe2-1f93-4308-a869-8126a8433eea" "fc5d5244-980c-4d25-8e65-43d6e38e3d19")
+	)
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/MSM261S3526Z0CM.STEP"
+		(offset
+			(xyz 0 0.67 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
