@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "35d057bc-af6b-4fca-ae38-95e1e10fbd32")
+		(uuid "13856c49-0f7d-44bf-9db6-6ed23d49e492")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a53163c1-dace-411a-a4dd-2adaaae235a1")
+		(uuid "3c86b355-c227-4d45-b2c4-ec2e39e3bc04")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -63,7 +63,7 @@
 	)
 	(fp_line
 		(start -6.62 -5.021)
-		(end -2 -5.021)
+		(end -3.25 -5.021)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -103,7 +103,7 @@
 	)
 	(fp_line
 		(start -6.62 5.02)
-		(end -2 5.02)
+		(end -3.25 5.02)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -112,7 +112,7 @@
 		(uuid "5ad2b3f6-9d3f-4104-b8ab-3e0515444f65")
 	)
 	(fp_line
-		(start 2 -5.021)
+		(start 3.25 -5.021)
 		(end 5.62 -5.021)
 		(stroke
 			(width 0.12)
@@ -122,7 +122,7 @@
 		(uuid "25601fe2-075a-4d85-bf88-90ec8d19709c")
 	)
 	(fp_line
-		(start 2 5.02)
+		(start 3.25 5.02)
 		(end 5.62 5.02)
 		(stroke
 			(width 0.12)
@@ -283,16 +283,16 @@
 	)
 	(pad "MP" thru_hole oval
 		(at 0 -5)
-		(size 3.5 1)
-		(drill oval 2.5 0.5)
+		(size 6 1)
+		(drill oval 5.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "27a07e70-ad3c-45b0-ae17-11fc91e0e1e5")
 	)
 	(pad "MP" thru_hole oval
 		(at 0 5)
-		(size 3.5 1)
-		(drill oval 2.5 0.5)
+		(size 6 1)
+		(drill oval 5.5 0.5)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "905e78df-9df9-44b7-ab8e-2ca633cc1164")
