@@ -11488,7 +11488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11506,7 +11506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "SOT-23-6封装，4-30V输入，可调输出同步降压"
+		(property "Description" "SOT-23-6封装，4.5-30V输入，1.4MHz可调输出同步降压"
 			(at 0 -5.08 0)
 			(effects
 				(font
