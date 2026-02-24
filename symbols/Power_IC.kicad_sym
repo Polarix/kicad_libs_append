@@ -9697,7 +9697,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 2.54 8.89 0)
+			(at 2.54 11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9706,7 +9706,7 @@
 			)
 		)
 		(property "Value" "MX5050T"
-			(at 2.54 6.35 0)
+			(at 2.54 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9714,7 +9714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 2.54 -6.35 0)
 			(effects
 				(font
@@ -9753,8 +9753,8 @@
 		)
 		(symbol "MX5050T_0_1"
 			(rectangle
-				(start -7.62 5.08)
-				(end 7.62 -5.08)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -9766,7 +9766,7 @@
 		)
 		(symbol "MX5050T_1_1"
 			(pin power_in line
-				(at -10.16 2.54 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "IN"
 					(effects
@@ -9783,8 +9783,26 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "VS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "OFF"
 					(effects
@@ -9802,7 +9820,7 @@
 				)
 			)
 			(pin output line
-				(at 0 7.62 270)
+				(at 0 10.16 270)
 				(length 2.54)
 				(name "GATE"
 					(effects
@@ -9820,7 +9838,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -7.62 90)
+				(at 0 -10.16 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -9838,7 +9856,7 @@
 				)
 			)
 			(pin input line
-				(at 10.16 2.54 180)
+				(at 10.16 5.08 180)
 				(length 2.54)
 				(name "OUT"
 					(effects
@@ -9848,24 +9866,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "VS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -15499,6 +15499,64 @@
 			)
 		)
 		(embedded_fonts no)
+	)
+	(symbol "MX5050L"
+		(extends "MX5050T")
+		(property "Reference" "U"
+			(at 2.54 11.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MX5050T"
+			(at 2.54 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 2.54 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "高边理想二极管控制器"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "High-side OR-ing FET controller "
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 	)
 	(symbol "PW2606B"
 		(extends "PW2606")
