@@ -63,8 +63,8 @@
 		(uuid "afd59366-2aed-427e-9a2a-088bb3942d88")
 	)
 	(fp_line
-		(start -1 -1.5)
-		(end -1.5 -1.5)
+		(start -1 1.5)
+		(end -1.5 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -83,8 +83,8 @@
 		(uuid "e6b6dbc5-0db4-4efa-9670-c22698a86ca5")
 	)
 	(fp_line
-		(start 1 -1.5)
-		(end 1.5 -1.5)
+		(start 1 1.5)
+		(end 1.5 1.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -237,20 +237,20 @@
 		)
 	)
 	(pad "1" thru_hole oval
-		(at -2 -1.25)
-		(size 0.8 1.1)
-		(drill oval 0.4 0.7)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6b33f3cb-3630-408f-bba4-7dc2bac49a2a")
-	)
-	(pad "2" thru_hole oval
 		(at -2 1.25)
 		(size 0.8 1.1)
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "89926009-18af-43e8-b6fe-a00dee4a514c")
+	)
+	(pad "2" thru_hole oval
+		(at -2 -1.25)
+		(size 0.8 1.1)
+		(drill oval 0.4 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b33f3cb-3630-408f-bba4-7dc2bac49a2a")
 	)
 	(pad "3" thru_hole oval
 		(at 2 1.25)
