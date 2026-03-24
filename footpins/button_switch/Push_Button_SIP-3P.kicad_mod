@@ -1,0 +1,238 @@
+(footprint "Push_Button_SIP-3P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "微动开关")
+	(tags "鼠标 微动 开关 switch button SIP 3P")
+	(property "Reference" "REF**"
+		(at -6.2 -2.2 0)
+		(layer "F.SilkS")
+		(uuid "b733ebe9-d414-4d42-8fa4-570d5350e89f")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.1)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "Push_Button_SIP-3P"
+		(at 0 2.55 0)
+		(layer "F.Fab")
+		(uuid "2119307d-8f46-4e86-9e2c-d1c3388d260f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39d18bc4-f947-49d9-be73-929d770a48c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SIP-3P鼠标微动开关"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aee26ee2-74c5-48f3-bbcd-4f124fd0ea40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6.4 -2.9)
+		(end 6.4 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d2c8560c-7bf3-4b1d-9e17-132f41d57fed")
+	)
+	(fp_line
+		(start -5.09 -1.5)
+		(end -5.09 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "94e414e0-42b0-4dc9-93a0-55146adf8e55")
+	)
+	(fp_line
+		(start -5.09 -1.5)
+		(end -0.1 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "cc4f873f-b73c-4149-bb2f-f091ae70f5cc")
+	)
+	(fp_line
+		(start -0.1 -1.5)
+		(end 1 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e0f1dbb4-4f68-4d76-8d3d-e174a32d3cbc")
+	)
+	(fp_line
+		(start 1 -2)
+		(end 5.09 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "65c47b52-0b78-408a-b8da-d931ce2987ad")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 2 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "8efececa-9cde-4291-83c5-704df26be511")
+	)
+	(fp_line
+		(start 2 -1)
+		(end 2 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "67c2c51a-9534-43bd-bbbc-ecc82bf7675a")
+	)
+	(fp_line
+		(start 2 0)
+		(end 1 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "c463bc31-056a-4661-850e-93d3cb90a170")
+	)
+	(fp_line
+		(start 5.09 -2)
+		(end 5.09 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "63106db6-1543-4922-92f8-73121e31f615")
+	)
+	(fp_circle
+		(center 1 -2)
+		(end 1 -1.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "a3f09ea4-e118-4609-95f3-ce1295061509")
+	)
+	(fp_circle
+		(center 1 -1)
+		(end 1 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "07da71fa-2504-4f89-867d-9ef5347be189")
+	)
+	(fp_rect
+		(start -6.4 -2.9)
+		(end 6.4 2.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a6329b4a-ff50-43db-a3a2-e51fad53ebb1")
+	)
+	(fp_rect
+		(start -6.4 -2.9)
+		(end 6.4 2.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "7b0ed88e-ce15-4bf3-b8a3-12a7f4f56bad")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.3 0)
+		(layer "F.Fab")
+		(uuid "bdfa34bf-7e67-443a-a012-a91216a78c94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 5.09 0)
+		(size 1.5 1.2)
+		(drill oval 1 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c5e01807-2135-4c05-90aa-030bf7dd243d")
+	)
+	(pad "2" thru_hole oval
+		(at -5.09 0)
+		(size 1.5 1.2)
+		(drill oval 1 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89926009-18af-43e8-b6fe-a00dee4a514c")
+	)
+	(pad "3" thru_hole oval
+		(at 0 0)
+		(size 1.5 1.2)
+		(drill oval 1 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6b33f3cb-3630-408f-bba4-7dc2bac49a2a")
+	)
+	(embedded_fonts no)
+	(model "${APPEND_LIB_PATH}/3d_model/D2FC-F-7N.stp"
+		(offset
+			(xyz 12.83 -2.1 2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
