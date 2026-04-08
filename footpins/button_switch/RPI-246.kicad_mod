@@ -1,14 +1,14 @@
 (footprint "RPI-246"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "2mm 四脚光电开关")
 	(tags "光电 对射 开关")
 	(property "Reference" "REF**"
 		(at 0.15 -2.6 0)
 		(layer "F.SilkS")
-		(uuid "b733ebe9-d414-4d42-8fa4-570d5350e89f")
+		(uuid "05c601ed-0d63-471e-b187-9ca8f34e4e80")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "RPI-246"
 		(at 0 2.55 0)
 		(layer "F.Fab")
-		(uuid "2119307d-8f46-4e86-9e2c-d1c3388d260f")
+		(uuid "ebf74e25-63f8-4bb3-9a34-3796690c1852")
 		(effects
 			(font
 				(size 1 1)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "39d18bc4-f947-49d9-be73-929d770a48c4")
+		(uuid "34239a32-66a7-4cbf-8e2a-8a737324c100")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "aee26ee2-74c5-48f3-bbcd-4f124fd0ea40")
+		(uuid "85cda138-e7a9-4c52-9980-25f8ef3c503e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -52,6 +52,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1 -2.1)
 		(end -1 2.1)
@@ -60,7 +61,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "afd59366-2aed-427e-9a2a-088bb3942d88")
+		(uuid "bfbbc400-d76e-42e9-9831-9285ef0f703b")
 	)
 	(fp_line
 		(start -1 1.5)
@@ -70,7 +71,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "5a9b9b16-1410-4028-acf3-93120cecba6c")
+		(uuid "cd034192-a1d3-45e4-bda3-5b7062e9d1a9")
 	)
 	(fp_line
 		(start 1 -2.1)
@@ -80,7 +81,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "e6b6dbc5-0db4-4efa-9670-c22698a86ca5")
+		(uuid "d924435a-3da8-4f63-96ed-be283a999149")
 	)
 	(fp_line
 		(start 1 1.5)
@@ -90,7 +91,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "572df2ac-de67-408f-b2c4-abd2fb2ad7d3")
+		(uuid "b602b5a2-0608-4ec9-9c25-1ae9519658d6")
 	)
 	(fp_rect
 		(start -2.5 -2.1)
@@ -101,7 +102,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "7e5dce9f-d6ba-415b-aef9-0d839ff19f94")
+		(uuid "b2e50b66-71ce-4e50-a57f-e9f12afa2e30")
 	)
 	(fp_rect
 		(start -2.5 -2.1)
@@ -112,7 +113,7 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "a6329b4a-ff50-43db-a3a2-e51fad53ebb1")
+		(uuid "56884144-bf95-400a-93d7-475343652c1a")
 	)
 	(fp_line
 		(start -2.25 0.25)
@@ -122,7 +123,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "c47b6949-6b63-4d03-876d-15ee20a40ea3")
+		(uuid "861b52cd-fd85-4c75-89d4-0609d95b9630")
 	)
 	(fp_line
 		(start -2 -0.25)
@@ -132,7 +133,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "ac1e556e-dde3-4a2e-beec-4526f4b9284f")
+		(uuid "2edfb208-cbf1-4f4a-970c-55eb28aa5966")
 	)
 	(fp_line
 		(start -2 0.5)
@@ -142,7 +143,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "77a96dea-c855-4a87-a774-81e186a95864")
+		(uuid "2e8123e1-600a-4651-b4bc-03aaa7c2d537")
 	)
 	(fp_line
 		(start -1.75 -0.25)
@@ -152,7 +153,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "24c72623-38e9-46be-a568-0c14501db135")
+		(uuid "898c484a-06f1-40b8-b338-232fd98947c3")
 	)
 	(fp_line
 		(start -1.75 0.25)
@@ -162,7 +163,7 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "43698490-0c1c-4b84-b320-c41d967d4c90")
+		(uuid "a35a211b-adf7-4704-8b6d-c45213ea17a6")
 	)
 	(fp_line
 		(start 1.75 -0.25)
@@ -172,47 +173,67 @@
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "d333303a-0b49-4327-b631-44b14ecaf6f0")
+		(uuid "470c6cbb-98de-4b1e-8eaa-16df2214de17")
 	)
 	(fp_line
 		(start 1.75 0)
-		(end 2.25 0.25)
+		(end 2.2 0.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e6af120-83cd-480a-babc-5359b4ae6656")
+	)
+	(fp_line
+		(start 2.1 -0.4)
+		(end 2.2 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "f6a31fe7-4890-4f20-a4e8-ee77e4c1ebfa")
+		(uuid "5534d2e6-ddd8-4888-89af-7401871d158f")
 	)
 	(fp_line
-		(start 2.25 -0.5)
-		(end 2.25 -0.25)
+		(start 2.2 -0.5)
+		(end 2.2 -0.25)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "e7645633-09ae-4c89-b48f-bfd945ac98fb")
+		(uuid "cddb297a-61d8-457b-b497-3009ff6052cc")
 	)
 	(fp_line
-		(start 2.25 -0.25)
+		(start 2.2 -0.25)
 		(end 1.75 0)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "13cd80e2-12a1-43d6-ac53-5dc6a12ba215")
+		(uuid "0708a44c-7a04-4c52-89a6-8fef8301cc04")
 	)
 	(fp_line
-		(start 2.25 0.25)
-		(end 2.25 0.5)
+		(start 2.2 0.25)
+		(end 2.2 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "828969f4-1049-47dd-82b4-7f58ea9d479d")
+	)
+	(fp_line
+		(start 2.3 -0.4)
+		(end 2.2 -0.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "d396dc16-8822-4c2a-a53c-df0839b15543")
+		(uuid "8857b7f9-1900-4e43-ba58-ce19f90baf83")
 	)
 	(fp_rect
 		(start -2.5 -2.1)
@@ -223,12 +244,12 @@
 		)
 		(fill no)
 		(layer "F.Fab")
-		(uuid "7b0ed88e-ce15-4bf3-b8a3-12a7f4f56bad")
+		(uuid "1f958a9a-69ad-4bba-803e-440e4173e224")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 1.3 0)
 		(layer "F.Fab")
-		(uuid "bdfa34bf-7e67-443a-a012-a91216a78c94")
+		(uuid "4344f0a5-27dc-488b-8d5b-77065c8f9d16")
 		(effects
 			(font
 				(size 1 1)
@@ -242,7 +263,7 @@
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "89926009-18af-43e8-b6fe-a00dee4a514c")
+		(uuid "a2476814-1b11-414d-87f1-9f8c68459e4f")
 	)
 	(pad "2" thru_hole oval
 		(at -2 -1.25)
@@ -250,7 +271,7 @@
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "6b33f3cb-3630-408f-bba4-7dc2bac49a2a")
+		(uuid "d14f6115-b355-49aa-b502-505c0b5b3697")
 	)
 	(pad "3" thru_hole oval
 		(at 2 1.25)
@@ -258,7 +279,7 @@
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c5e01807-2135-4c05-90aa-030bf7dd243d")
+		(uuid "1a488d23-07ca-4256-badc-1918b5cb1f1a")
 	)
 	(pad "4" thru_hole oval
 		(at 2 -1.25)
@@ -266,7 +287,7 @@
 		(drill oval 0.4 0.7)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "60ed2a91-ce83-41f1-9164-10df68163c1e")
+		(uuid "31e18552-b20b-4924-9f88-d8ddea7e336f")
 	)
 	(embedded_fonts no)
 	(model "${APPEND_LIB_PATH}/3d_model/RPI-243.stp"
