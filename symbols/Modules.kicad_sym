@@ -5193,7 +5193,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 12.7 45.72 0)
+			(at 12.7 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5204,7 +5204,7 @@
 			)
 		)
 		(property "Value" "ML307A"
-			(at 12.7 43.18 0)
+			(at 12.7 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5247,9 +5247,20 @@
 				)
 			)
 		)
+		(property "ki_keywords" "4G Cat1 LTE"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(symbol "ML307A_1_0"
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -5266,11 +5277,10 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at 33.02 -38.1 180)
+			(pin bidirectional line
+				(at 33.02 38.1 180)
 				(length 2.54)
-				(hide yes)
-				(name "RESERVED"
+				(name "ANT_GNSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -5358,7 +5368,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 44.45 270)
+				(at -5.08 45.72 270)
 				(length 2.54)
 				(name "PWR_ON/OFF"
 					(effects
@@ -5376,7 +5386,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -5395,7 +5405,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -10.16 180)
+				(at 33.02 -12.7 180)
 				(length 2.54)
 				(name "ADC"
 					(effects
@@ -5413,7 +5423,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -5522,7 +5532,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 31.75 180)
+				(at 33.02 25.4 180)
 				(length 2.54)
 				(name "NETLIGHT"
 					(effects
@@ -5666,7 +5676,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 44.45 270)
+				(at 0 45.72 270)
 				(length 2.54)
 				(name "VDD_EXT"
 					(effects
@@ -5684,7 +5694,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 29.21 180)
+				(at 33.02 22.86 180)
 				(length 2.54)
 				(name "STATE"
 					(effects
@@ -5702,7 +5712,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -5721,7 +5731,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -5776,7 +5786,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -5795,7 +5805,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -5814,7 +5824,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -5833,7 +5843,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -5852,7 +5862,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -5871,7 +5881,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 36.83 180)
+				(at 33.02 33.02 180)
 				(length 2.54)
 				(name "ANT_MAIN"
 					(effects
@@ -5889,7 +5899,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -5908,7 +5918,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -5963,7 +5973,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -5982,7 +5992,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6001,7 +6011,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 44.45 270)
+				(at 2.54 45.72 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -6019,7 +6029,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 44.45 270)
+				(at 5.08 45.72 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -6037,7 +6047,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6056,7 +6066,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6075,7 +6085,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6094,7 +6104,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6113,7 +6123,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6132,7 +6142,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 26.67 180)
+				(at 33.02 20.32 180)
 				(length 2.54)
 				(name "WAKEUP_OUT"
 					(effects
@@ -6150,7 +6160,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6169,7 +6179,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6188,7 +6198,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6207,7 +6217,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6226,7 +6236,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6245,7 +6255,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6264,7 +6274,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6283,7 +6293,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6302,7 +6312,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6321,7 +6331,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -35.56 0)
+				(at -33.02 -38.1 0)
 				(length 2.54)
 				(name "USB_DP"
 					(effects
@@ -6339,7 +6349,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -33.02 0)
+				(at -33.02 -35.56 0)
 				(length 2.54)
 				(name "USB_DM"
 					(effects
@@ -6357,7 +6367,7 @@
 				)
 			)
 			(pin power_in line
-				(at -33.02 -30.48 0)
+				(at -33.02 -33.02 0)
 				(length 2.54)
 				(name "USB_VBUS"
 					(effects
@@ -6447,7 +6457,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6466,7 +6476,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6485,7 +6495,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6504,7 +6514,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6523,7 +6533,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6542,7 +6552,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6561,7 +6571,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6580,7 +6590,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6599,7 +6609,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 -22.86 180)
+				(at 33.02 -25.4 180)
 				(length 2.54)
 				(name "PWM0"
 					(effects
@@ -6617,7 +6627,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 -25.4 180)
+				(at 33.02 -27.94 180)
 				(length 2.54)
 				(name "PWM1"
 					(effects
@@ -6635,7 +6645,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -27.94 180)
+				(at 33.02 -30.48 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -6653,7 +6663,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -30.48 180)
+				(at 33.02 -33.02 180)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -6671,7 +6681,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6708,7 +6718,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6727,7 +6737,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6746,7 +6756,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 24.13 180)
+				(at 33.02 17.78 180)
 				(length 2.54)
 				(name "BOOT_MODE"
 					(effects
@@ -6764,7 +6774,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6783,7 +6793,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6802,7 +6812,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -6821,7 +6831,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -33.02 180)
+				(at 33.02 -35.56 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -6839,7 +6849,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -35.56 180)
+				(at 33.02 -38.1 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -6857,7 +6867,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6876,7 +6886,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6895,7 +6905,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6914,7 +6924,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6933,7 +6943,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6952,7 +6962,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6971,7 +6981,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -6992,8 +7002,8 @@
 		)
 		(symbol "ML307A_1_1"
 			(rectangle
-				(start -30.48 41.91)
-				(end 30.48 -40.64)
+				(start -30.48 43.18)
+				(end 30.48 -43.18)
 				(stroke
 					(width 0)
 					(type default)
@@ -7005,7 +7015,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "ML307R"
+	(symbol "ML307C"
 		(pin_names
 			(offset 1.016)
 		)
@@ -7015,7 +7025,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 12.7 45.72 0)
+			(at 12.7 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7025,8 +7035,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "ML307R"
-			(at 12.7 43.18 0)
+		(property "Value" "ML307C"
+			(at 12.7 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7058,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Description" "中移物联4G.Cat1模块"
+		(property "Description" "中移物联4G.Cat1模块，带GNSS"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7069,9 +7079,20 @@
 				)
 			)
 		)
-		(symbol "ML307R_0_0"
+		(property "ki_keywords" "4G Cat1 LTE GNSS"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "ML307C_0_0"
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -7081,25 +7102,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin no_connect line
-				(at 33.02 -38.1 180)
-				(length 2.54)
-				(hide yes)
-				(name "RESERVED"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -7180,7 +7182,7 @@
 				)
 			)
 			(pin input line
-				(at -5.08 44.45 270)
+				(at -5.08 45.72 270)
 				(length 2.54)
 				(name "PWR_ON/OFF"
 					(effects
@@ -7198,7 +7200,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7217,7 +7219,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -10.16 180)
+				(at 33.02 -12.7 180)
 				(length 2.54)
 				(name "ADC0"
 					(effects
@@ -7235,7 +7237,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7344,7 +7346,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 31.75 180)
+				(at 33.02 25.4 180)
 				(length 2.54)
 				(name "NETLIGHT"
 					(effects
@@ -7488,7 +7490,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 44.45 270)
+				(at 0 45.72 270)
 				(length 2.54)
 				(name "VDD_EXT"
 					(effects
@@ -7506,7 +7508,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 29.21 180)
+				(at 33.02 22.86 180)
 				(length 2.54)
 				(name "STATE"
 					(effects
@@ -7524,7 +7526,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7543,7 +7545,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7598,7 +7600,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7617,7 +7619,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7636,7 +7638,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7673,7 +7675,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7692,7 +7694,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 36.83 180)
+				(at 33.02 33.02 180)
 				(length 2.54)
 				(name "ANT_MAIN"
 					(effects
@@ -7710,7 +7712,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7729,7 +7731,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7784,7 +7786,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7803,7 +7805,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7822,7 +7824,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 44.45 270)
+				(at 2.54 45.72 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -7840,7 +7842,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 44.45 270)
+				(at 5.08 45.72 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -7858,7 +7860,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7877,7 +7879,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7896,7 +7898,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7915,7 +7917,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7934,7 +7936,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -7953,7 +7955,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 26.67 180)
+				(at 33.02 20.32 180)
 				(length 2.54)
 				(name "WAKEUP_OUT"
 					(effects
@@ -7971,7 +7973,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -7990,7 +7992,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8009,7 +8011,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8028,7 +8030,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8047,7 +8049,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8066,7 +8068,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8085,7 +8087,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8104,7 +8106,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8123,7 +8125,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8142,7 +8144,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -35.56 0)
+				(at -33.02 -38.1 0)
 				(length 2.54)
 				(name "USB_DP"
 					(effects
@@ -8160,7 +8162,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -33.02 -33.02 0)
+				(at -33.02 -35.56 0)
 				(length 2.54)
 				(name "USB_DM"
 					(effects
@@ -8178,7 +8180,7 @@
 				)
 			)
 			(pin power_in line
-				(at -33.02 -30.48 0)
+				(at -33.02 -33.02 0)
 				(length 2.54)
 				(name "USB_VBUS"
 					(effects
@@ -8268,7 +8270,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8287,7 +8289,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8306,7 +8308,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8325,7 +8327,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8344,7 +8346,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8363,7 +8365,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8382,7 +8384,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8401,7 +8403,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8420,7 +8422,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 -22.86 180)
+				(at 33.02 -25.4 180)
 				(length 2.54)
 				(name "PWM0"
 					(effects
@@ -8438,7 +8440,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 -25.4 180)
+				(at 33.02 -27.94 180)
 				(length 2.54)
 				(name "PWM1"
 					(effects
@@ -8456,7 +8458,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -27.94 180)
+				(at 33.02 -30.48 180)
 				(length 2.54)
 				(name "GPIO0"
 					(effects
@@ -8474,7 +8476,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -30.48 180)
+				(at 33.02 -33.02 180)
 				(length 2.54)
 				(name "GPIO1"
 					(effects
@@ -8492,7 +8494,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8529,7 +8531,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8548,7 +8550,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8567,7 +8569,7 @@
 				)
 			)
 			(pin output line
-				(at 33.02 24.13 180)
+				(at 33.02 17.78 180)
 				(length 2.54)
 				(name "BOOT_MODE"
 					(effects
@@ -8585,7 +8587,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8604,7 +8606,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8623,7 +8625,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8642,7 +8644,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -33.02 180)
+				(at 33.02 -35.56 180)
 				(length 2.54)
 				(name "GPIO2"
 					(effects
@@ -8660,7 +8662,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 33.02 -35.56 180)
+				(at 33.02 -38.1 180)
 				(length 2.54)
 				(name "GPIO3"
 					(effects
@@ -8678,7 +8680,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8697,7 +8699,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8716,7 +8718,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8735,7 +8737,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8754,7 +8756,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8773,7 +8775,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8792,7 +8794,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -8811,7 +8813,7 @@
 				)
 			)
 			(pin input line
-				(at 33.02 -12.7 180)
+				(at 33.02 -15.24 180)
 				(length 2.54)
 				(name "ADC1"
 					(effects
@@ -8829,7 +8831,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8848,7 +8850,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8867,7 +8869,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8886,7 +8888,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8905,7 +8907,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8924,7 +8926,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8943,7 +8945,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8962,7 +8964,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -8981,7 +8983,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -9000,7 +9002,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -9019,7 +9021,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -9038,7 +9040,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -9057,7 +9059,7 @@
 				)
 			)
 			(pin no_connect line
-				(at 33.02 -38.1 180)
+				(at 33.02 -40.64 180)
 				(length 2.54)
 				(hide yes)
 				(name "RESERVED"
@@ -9076,9 +9078,27 @@
 				)
 			)
 		)
-		(symbol "ML307R_1_0"
+		(symbol "ML307C_1_0"
+			(pin bidirectional line
+				(at 33.02 38.1 180)
+				(length 2.54)
+				(name "ANT_GNSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin power_in line
-				(at 0 -43.18 90)
+				(at 0 -45.72 90)
 				(length 2.54)
 				(hide yes)
 				(name "GND"
@@ -9097,10 +9117,10 @@
 				)
 			)
 		)
-		(symbol "ML307R_1_1"
+		(symbol "ML307C_1_1"
 			(rectangle
-				(start -30.48 41.91)
-				(end 30.48 -40.64)
+				(start -30.48 43.18)
+				(end 30.48 -43.18)
 				(stroke
 					(width 0)
 					(type default)
