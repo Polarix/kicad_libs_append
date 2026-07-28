@@ -1,13 +1,13 @@
-(footprint "PH2.0mm_4P"
-	(version 20240108)
+(footprint "PH2.0mm_4P_Ver_THT"
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "4针直针PH2.0mm插座")
+	(descr "PH2.0mm 4P立插插座")
 	(property "Reference" "REF**"
 		(at -5.5 -4 0)
 		(layer "F.SilkS")
-		(uuid "24b10541-999e-4ed2-ba32-2022b0d71014")
+		(uuid "5f7b10b1-c9f8-488a-9a46-973616963171")
 		(effects
 			(font
 				(size 1 1)
@@ -19,7 +19,7 @@
 	(property "Value" "PH2.0 4P"
 		(at -0.5 -4 0)
 		(layer "F.Fab")
-		(uuid "f6251da3-c81e-47ed-b47f-a390b5885578")
+		(uuid "cbb731df-0ff0-4968-bc64-5fa13d3d0db5")
 		(effects
 			(font
 				(size 1 1)
@@ -28,23 +28,11 @@
 			(justify left)
 		)
 	)
-	(property "Footprint" ""
-		(at -0.5 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "f7815dec-0a48-4e18-b247-0a139e2ecff8")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at -0.5 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a5b51abd-eae5-45df-be81-206af88b0518")
+		(uuid "f99027f5-4af6-4ec1-b8d0-f9170ec029f1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -56,7 +44,7 @@
 		(at -0.5 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "93dc93aa-8a86-4725-8e12-a03e493294d3")
+		(uuid "5f413c2b-be54-4cec-b78f-cb060246ebcb")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -65,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -4.4 -2.4)
 		(end -4.4 1.2)
@@ -73,7 +62,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "10b0e8c6-6bfe-42a8-9d06-a535c1454554")
+		(uuid "40f1e47b-aa49-431e-ae87-c71342b4e3a2")
 	)
 	(fp_line
 		(start -4.4 -2.4)
@@ -83,7 +72,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "7a6fee09-5f6f-4d56-b92d-a6a24185e118")
+		(uuid "8f256174-890b-4c7f-bc03-6240323a6b14")
 	)
 	(fp_line
 		(start -4.4 1.2)
@@ -93,7 +82,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "370a97ae-dc68-430d-9528-29d2a948df27")
+		(uuid "0788d3b7-bc32-45b7-a3bc-fb86ba3b71db")
 	)
 	(fp_line
 		(start -3 1.2)
@@ -103,7 +92,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "17a7e1ac-4f5c-4c37-bdbc-b2e2d2a95980")
+		(uuid "22857ce8-dac8-4462-bcea-d6284b2fa03b")
 	)
 	(fp_line
 		(start 3 1.2)
@@ -113,7 +102,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "040d499b-4e81-426e-af23-899e1788ab21")
+		(uuid "4033b4b0-346f-4c78-a96b-b52660c2d589")
 	)
 	(fp_line
 		(start 3 1.2)
@@ -123,7 +112,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "abe3d357-e738-43d5-8231-8d5622d1a5c3")
+		(uuid "f4d665b8-a407-4f08-8b5b-2b70b662ba9a")
 	)
 	(fp_line
 		(start 4.4 -2.4)
@@ -133,7 +122,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c80b3e95-6aa1-4856-91eb-24f315ddfd0c")
+		(uuid "e936487f-7d7d-47a9-a84e-a2bb90c901a6")
 	)
 	(fp_rect
 		(start -5 -3)
@@ -142,9 +131,9 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
-		(uuid "45ebfb04-4d72-4351-93c7-439070c704dd")
+		(uuid "9be03552-de48-4671-b066-81ced6446209")
 	)
 	(fp_rect
 		(start -5 -3)
@@ -153,9 +142,9 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
-		(uuid "8c84326e-4fac-4e2b-b4d1-e55510ba5f86")
+		(uuid "50f2003d-f344-4241-a6f6-c818745d3344")
 	)
 	(pad "1" thru_hole circle
 		(at -3 0)
@@ -163,7 +152,7 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8044fb66-640f-4b6f-9b8b-ae61d823a5bf")
+		(uuid "47edcd20-35e9-44b7-9515-3812a6c28b77")
 	)
 	(pad "2" thru_hole circle
 		(at -1 0)
@@ -171,7 +160,7 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "aab5427b-0d7c-48ef-92db-1fdf4b24214d")
+		(uuid "bbb85716-dd70-4e7e-bc1c-2f586649e555")
 	)
 	(pad "3" thru_hole circle
 		(at 1 0)
@@ -179,7 +168,7 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "37a0c8a2-8b24-42a6-9c4f-cceedbf07031")
+		(uuid "e421c4d7-e2c9-4bd5-8302-a5e858821c86")
 	)
 	(pad "4" thru_hole circle
 		(at 3 0)
@@ -187,6 +176,7 @@
 		(drill 0.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "535d117d-488c-4a0f-968f-2994a9a0ffbf")
+		(uuid "a1e82a7b-44e4-4899-8886-00fbdd58942d")
 	)
+	(embedded_fonts no)
 )
