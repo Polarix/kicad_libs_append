@@ -1445,7 +1445,7 @@
 						)
 					)
 				)
-				(number "21"
+				(number "24"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1918,24 +1918,6 @@
 				(at -12.7 0 0)
 				(length 2.54)
 				(name "~{RESET}/CDP"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at -12.7 -2.54 0)
-				(length 2.54)
-				(name "PGANG"
 					(effects
 						(font
 							(size 1.27 1.27)

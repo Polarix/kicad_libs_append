@@ -538,7 +538,7 @@
 			)
 		)
 		(symbol "GC1101_1_1"
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -592,7 +592,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -646,7 +646,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -700,7 +700,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -718,7 +718,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -790,7 +790,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -808,7 +808,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
@@ -826,7 +826,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin no_connect line
 				(at -2.54 10.16 270)
 				(length 2.54) hide
 				(name "NC"
