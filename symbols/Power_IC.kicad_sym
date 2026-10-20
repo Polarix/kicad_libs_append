@@ -14710,7 +14710,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_out line
 				(at 7.62 0 180)
 				(length 2.54)
 				(name "OUT"

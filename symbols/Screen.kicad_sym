@@ -5413,7 +5413,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 5.08 15.24 270)
 				(length 2.54)
 				(name "LEDA"
@@ -5431,7 +5431,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at 2.54 -15.24 90)
 				(length 2.54)
 				(name "LEDK"
@@ -5449,7 +5449,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin power_in line
 				(at -2.54 15.24 270)
 				(length 2.54)
 				(name "VDDI"
@@ -5557,7 +5557,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin passive line
 				(at -2.54 -15.24 90)
 				(length 2.54)
 				(hide yes)
