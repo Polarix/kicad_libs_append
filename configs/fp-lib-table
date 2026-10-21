@@ -5,6 +5,7 @@
   (lib (name "Append_Connector")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/connector")(options "")(descr ""))
   (lib (name "Append_Modules")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/modules")(options "")(descr ""))
   (lib (name "Append_Button_Switch")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/button_switch")(options "")(descr ""))
+  (lib (name "Append_Sensor")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/sensor")(options "")(descr ""))
   (lib (name "Append_Slot")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/slot")(options "")(descr ""))
   (lib (name "Append_Pin_Pad_Jumper")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/pin_pad_jumper")(options "")(descr ""))
   (lib (name "Append_Screen")(type "KiCad")(uri "${APPEND_LIB_PATH}/footpins/screens")(options "")(descr ""))

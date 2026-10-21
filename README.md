@@ -58,6 +58,7 @@
 |-|-|
 |antenna|天线|
 |button_switch|按钮、开关、摇杆、编码器、手柄、摇杆和电位器等|
+|sensor|传感器，包含光电开关、气体传感器等封装|
 |connector|端子、连接器|
 |deprecated|将被弃用或移动到其他库的封装|
 |general|普通元件或未分类元件|

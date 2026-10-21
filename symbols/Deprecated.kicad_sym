@@ -9751,7 +9751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "User_General:SGP30"
+		(property "Footprint" "Append_Sensor:SGP30"
 			(at 0 -6.35 0)
 			(effects
 				(font
