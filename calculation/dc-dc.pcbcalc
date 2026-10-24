@@ -1,7 +1,7 @@
 (datafile
   (version 2)
-    (date "2026-01-31T11:47:47+0800")
-      (tool "pcb_calculator 9.0.6")
+    (date "2026-10-11T19:16:15")
+      (tool "pcb_calculator 10.0.7")
         (regulators
           (regulator "MP4420"
             (reg_vref_min 0.792)
@@ -13,12 +13,6 @@
             (reg_vref_min 0.588)
             (reg_vref_typ 0.6)
             (reg_vref_max 0.612)
-            (reg_type normal)
-          )
-          (regulator "SY8303"
-            (reg_vref_min 0.6)
-            (reg_vref_typ 0.6)
-            (reg_vref_max 0.6)
             (reg_type normal)
           )
           (regulator "RY8310"
@@ -40,6 +34,18 @@
             (reg_type normal)
           )
           (regulator "SY8029AIC"
+            (reg_vref_min 0.6)
+            (reg_vref_typ 0.6)
+            (reg_vref_max 0.6)
+            (reg_type normal)
+          )
+          (regulator "SY8303"
+            (reg_vref_min 0.6)
+            (reg_vref_typ 0.6)
+            (reg_vref_max 0.6)
+            (reg_type normal)
+          )
+          (regulator "TLV62568"
             (reg_vref_min 0.6)
             (reg_vref_typ 0.6)
             (reg_vref_max 0.6)
