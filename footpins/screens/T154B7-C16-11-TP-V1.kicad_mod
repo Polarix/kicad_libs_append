@@ -1,0 +1,189 @@
+(footprint "T154B7-C16-11-TP-V1"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "金逸晨1.54英寸TFT液晶屏外廓")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d91692f2-96fd-4a17-9750-e32da1783937")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SCR"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "60947507-7432-494c-b077-6153b72271a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01101bc1-737c-45c0-bb5a-7431763ad1d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "金逸晨1.54英寸TFT液晶屏，ST7789 240×240px，SPI接口，电容触摸"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "973bf2d1-b522-4d62-aed7-a96905fb79c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -11.75 12.085)
+		(end 12.67 18.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "c524d88f-fed4-4b3c-92bf-2a2057053b18")
+	)
+	(fp_rect
+		(start -5.26 -12.715)
+		(end 3.24 18.115)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "58de01b8-54fd-49a6-8634-5678ffe0cad0")
+	)
+	(fp_line
+		(start -20.075 16.95)
+		(end -20.075 -16.955)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "da197ebd-8bad-4a64-8b97-b05eb7300a56")
+	)
+	(fp_line
+		(start -16.955 -20.075)
+		(end 16.95 -20.075)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4f5f19a7-e458-4c25-b60a-37a075f66dc1")
+	)
+	(fp_line
+		(start 16.95 20.07)
+		(end -16.955 20.07)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6f3b3195-32bb-4d63-ba4f-3d611e654b4b")
+	)
+	(fp_line
+		(start 20.075 16.95)
+		(end 20.075 -16.955)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "a4c04246-9d75-4bee-be8c-1b71ecdf58e5")
+	)
+	(fp_rect
+		(start -15.64 -15.555)
+		(end 15.64 17.665)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ee6a0fdc-b1b8-48bb-a72c-f31b9c3e4cfd")
+	)
+	(fp_arc
+		(start -20.075 -16.955)
+		(mid -19.161173 -19.161173)
+		(end -16.955 -20.075)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "54ef078f-393e-4481-9a59-8a2aae3f55a0")
+	)
+	(fp_arc
+		(start -16.955 20.07)
+		(mid -19.161173 19.156173)
+		(end -20.075 16.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d2ef352d-f6f8-4a95-a069-986b368426e1")
+	)
+	(fp_arc
+		(start 16.95 -20.07)
+		(mid 19.157638 -19.159709)
+		(end 20.075 -16.955)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "652d18b1-bf4b-4456-9c18-04b58c91febb")
+	)
+	(fp_arc
+		(start 20.07 16.95)
+		(mid 19.156173 19.156173)
+		(end 16.95 20.07)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "203d7f6b-c064-47f9-bc26-592e6b5badfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3804633e-3489-4f69-8133-8a942255dd1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

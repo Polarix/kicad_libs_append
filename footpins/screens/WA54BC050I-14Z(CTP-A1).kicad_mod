@@ -1,0 +1,185 @@
+(footprint "WA54BC050I-14Z(CTP-A1)"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "沃乐康 1.54寸 240×240 电容触摸屏")
+	(tags "WLK TFT LCD 1.54in 240 touch")
+	(property "Reference" "REF**"
+		(at -15.6 -20.8 0)
+		(layer "F.SilkS")
+		(uuid "42c994b6-52c2-4fb4-82cd-a712c72e75a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "ST7789_1.14in"
+		(at -7.599 -20.8 0)
+		(layer "F.Fab")
+		(uuid "d0d2afc4-76c9-4e5c-890b-9055b18f55ed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.34 5.6 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8eddb83-f73f-4a3f-8ec4-548edb9b9389")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.34 5.6 90)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "163db86b-dd04-4aa4-b99d-05bc5d2a2f40")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -12 10.8)
+		(end 12 16.98)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "af832b22-3d51-4d8a-91a3-00bc76f12241")
+	)
+	(fp_rect
+		(start -3.75 -16.15)
+		(end 3.75 18.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "308e74ad-c9a6-4804-bfdf-4b039c2d6434")
+	)
+	(fp_line
+		(start -17.5 -19)
+		(end -17.5 19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58b1b5e2-d889-4ba8-8760-d16972d3bde0")
+	)
+	(fp_line
+		(start -16.5 20)
+		(end 16.5 20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5d262321-e267-494f-9072-959801f8226b")
+	)
+	(fp_line
+		(start 16.5 -20)
+		(end -16.5 -20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fc578bf7-9e8c-4824-9309-f1aedabbd140")
+	)
+	(fp_line
+		(start 17.5 -19)
+		(end 17.5 19)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "727fb137-3e1b-41ac-b168-0fddc67d001e")
+	)
+	(fp_rect
+		(start -15.76 -15.64)
+		(end 15.76 18.08)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "62b0b9c6-c3de-4c0a-a5f8-4ecf3baf14cb")
+	)
+	(fp_arc
+		(start -17.5 -19)
+		(mid -17.207107 -19.707107)
+		(end -16.5 -20)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4005ded1-e33e-49f7-bb44-b5e31d0700bb")
+	)
+	(fp_arc
+		(start -16.499999 19.999999)
+		(mid -17.207106 19.707106)
+		(end -17.499999 18.999999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "63b09491-c19d-4bba-abde-64b8c725ec3e")
+	)
+	(fp_arc
+		(start 16.5 -20)
+		(mid 17.207107 -19.707107)
+		(end 17.5 -19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "313ac005-b3f2-4029-acba-44605f175040")
+	)
+	(fp_arc
+		(start 17.499999 18.999999)
+		(mid 17.207106 19.707106)
+		(end 16.499999 19.999999)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c6908ad8-ab15-4b5a-8a6d-dc570cebf27e")
+	)
+	(embedded_fonts no)
+	(model "${KISYS3DMOD}/Connector_FFC-FPC.3dshapes/Hirose_FH12-8S-0.5SH_1x08-1MP_P0.50mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
